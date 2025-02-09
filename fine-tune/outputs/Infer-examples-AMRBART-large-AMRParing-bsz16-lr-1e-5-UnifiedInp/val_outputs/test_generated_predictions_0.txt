@@ -1,0 +1,4 @@
+# ::id 0
+# ::annotator bart-amr
+# ::snt My dog is too cute, and it's name is Aron
+(z0 / thing)

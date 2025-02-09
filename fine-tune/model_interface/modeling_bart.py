@@ -45,6 +45,7 @@ from transformers.utils import (
 )
 from transformers.models.bart.configuration_bart import BartConfig
 
+from moduli.BaseStreamer import BaseStreamer
 
 logger = logging.get_logger(__name__)
 
@@ -741,6 +742,7 @@ class BartEncoder(BartPretrainedModel):
         output_attentions: Optional[bool] = None,
         output_hidden_states: Optional[bool] = None,
         return_dict: Optional[bool] = None,
+        streamer: Optional[BaseStreamer] = None,
     ) -> Union[Tuple, BaseModelOutput]:
         r"""
         Args:
@@ -1265,6 +1267,7 @@ class BartModel(BartPretrainedModel):
             encoder_hidden_states=encoder_outputs.hidden_states,
             encoder_attentions=encoder_outputs.attentions,
         )
+        
 
 
 @add_start_docstrings(
@@ -1368,7 +1371,7 @@ class BartForConditionalGeneration(BartPretrainedModel):
             return_dict=return_dict,
         )
         lm_logits = self.lm_head(outputs[0]) + self.final_logits_bias
-
+        
         masked_lm_loss = None
         if labels is not None:
             loss_fct = CrossEntropyLoss()

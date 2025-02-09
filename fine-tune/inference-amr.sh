@@ -3,7 +3,7 @@ RootDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 Dataset=examples
 
-BasePath=/mnt/nfs-storage/data                    # change dir here
+BasePath='AMRBART/cache'                    # change dir here
 DataPath=$RootDir/../$Dataset
 
 ModelCate=AMRBART-large
@@ -37,7 +37,7 @@ fi
 python -u main.py \
     --data_dir $DataPath \
     --task "text2amr" \
-    --test_file $DataPath/data4parsing.jsonl \
+    --test_file $DataPath/data4parsing2.jsonl \
     --output_dir $OutputDir \
     --cache_dir $ModelCache \
     --data_cache_dir $DataCache \
@@ -45,12 +45,12 @@ python -u main.py \
     --model_name_or_path $MODEL \
     --overwrite_output_dir \
     --unified_input True \
-    --per_device_eval_batch_size 16 \
+    --per_device_eval_batch_size 1 \
     --max_source_length 400 \
     --max_target_length 1024 \
     --val_max_target_length 1024 \
     --generation_max_length 1024 \
-    --generation_num_beams 5 \
+    --generation_num_beams 1 \
     --predict_with_generate \
     --smart_init False \
     --use_fast_tokenizer False \

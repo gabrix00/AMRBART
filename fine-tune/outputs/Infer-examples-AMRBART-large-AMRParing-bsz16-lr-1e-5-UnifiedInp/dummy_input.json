@@ -1,0 +1,14 @@
+{
+    "input_ids": "[[0, 1308, 2335, 16, 350, 11962, 6, 8, 24, 18, 766, 16, 1586, 261, 2, 53226, 50264, 53227, 1, 1, 1, 1, 1, 1]]",
+    "input_tokens": [
+        "<s> My dog is too cute, and it's name is Aron</s><AMR><mask></AMR><pad><pad><pad><pad><pad><pad>"
+    ],
+    "labels": "[[53227, 1, 1, 1, 1, 1, 1, 1]]",
+    "labels_tokens": [
+        "</AMR><pad><pad><pad><pad><pad><pad><pad>"
+    ],
+    "decoder_input_ids": "[[53226, 53227, 1, 1, 1, 1, 1, 1]]",
+    "decoder_input_tokens": [
+        "<AMR></AMR><pad><pad><pad><pad><pad><pad>"
+    ]
+}

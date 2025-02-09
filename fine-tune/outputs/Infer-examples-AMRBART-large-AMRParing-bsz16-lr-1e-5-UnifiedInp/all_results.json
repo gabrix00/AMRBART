@@ -1,0 +1,9 @@
+{
+    "predict_gen_len": 6.0,
+    "predict_loss": 12.939350128173828,
+    "predict_runtime": 3.0872,
+    "predict_samples": 1,
+    "predict_samples_per_second": 0.324,
+    "predict_smatch": 0.0,
+    "predict_steps_per_second": 0.324
+}

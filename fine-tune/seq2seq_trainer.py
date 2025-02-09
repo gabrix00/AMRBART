@@ -21,6 +21,12 @@ from torch import nn
 from torch.utils.data import Dataset
 from packaging import version
 
+from moduli.SimpleLogitProcessor import MaskLogitsProcessor
+from moduli.PushdownAutomaton import PushdownAutomaton
+from moduli.BaseStreamer import BaseStreamer
+from utils.grammar_rules import grammar
+from utils.map_terminal_tokens import generate_token_maps
+
 from transformers.deepspeed import is_deepspeed_zero3_enabled
 from base_trainer import Trainer
 # from hf_trainer import Trainer
@@ -575,6 +581,22 @@ class Seq2SeqTrainer(Trainer):
         else:
             generation_inputs = inputs[self.model.main_input_name]
         
+        #help(model.generate)
+        #vocab = self.tokenizer.get_vocab()
+        # Salva il vocabolario in un file .txt
+        #with open('saved_vocab.txt', 'w') as f:
+        #    for token, index in vocab.items():
+        #        f.write(f"{token}\n")
+
+        map_terminal_tokens = generate_token_maps(self.tokenizer)
+
+        pda = PushdownAutomaton(grammar=grammar, startSymbol='Start', map=map_terminal_tokens)
+        streamer = BaseStreamer(self.tokenizer, pda)
+
+
+        #tokens_id = [self.tokenizer.encode(word, add_special_tokens=False,add_prefix_space=False) for word in ["dog","cute","animal",' dog']]
+        #streamer = BaseStreamer(self.tokenizer)
+    
         generated_tokens = self.model.generate(
             generation_inputs,
             **gen_kwargs,
@@ -584,7 +606,9 @@ class Seq2SeqTrainer(Trainer):
             no_repeat_ngram_size=0,
             max_length=max_gen_length,
             min_length=0,
+            logits_processor = [MaskLogitsProcessor(self.tokenizer, pda)],
             length_penalty=self.eval_lenpen,
+            streamer = streamer,
         )
         
         # in case the batch is shorter than max length, the output should be padded
