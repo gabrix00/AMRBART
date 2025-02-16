@@ -1,0 +1,62 @@
+# ::id 0
+# ::annotator bart-amr
+# ::snt The best defense is to attack - we should strengthen forces which can engage in ultra-long-range attack, improve combat capability throughout all of aerospace, of great depth, and over great distances. On the premise of avoiding influence on national economic development, increase investment and construction of the defense industry, accelerate modernization and internationalization of military equipment, and establish a high-quality, high-tech elite division.
+(z0 / multi-sentence
+    :snt1 (z1 / defend-01
+              :ARG3 (z2 / attack-01)
+              :ARG1-of (z3 / have-degree-91
+                           :ARG2 (z4 / good-02
+                                     :ARG1 z1)
+                           :ARG3 (z5 / most)))
+    :snt2 (z6 / recommend-01
+              :ARG1 (z7 / and
+                        :op1 (z8 / strengthen-01
+                                 :ARG0 (z9 / we)
+                                 :ARG1 (z10 / force
+                                            :ARG0-of (z11 / engage-01
+                                                          :ARG2 (z12 / attack-01
+                                                                     :ARG1-of (z13 / range-01
+                                                                                   :ARG2 (z14 / long-03
+                                                                                              :degree (z15 / ultra))))
+                                                          :ARG1-of (z16 / possible-01))))
+                        :op2 (z17 / improve-01
+                                  :ARG0 z9
+                                  :ARG1 (z18 / capable-01
+                                             :ARG2 (z19 / combat-01))
+                                  :location (z20 / aerospace
+                                                 :mod (z21 / all))
+                                  :ARG1-of (z22 / deep-02
+                                                :mod (z23 / great))
+                                  :location (z24 / distance
+                                                 :mod z23))
+                        :op3 (z25 / accelerate-01
+                                  :ARG0 z9
+                                  :ARG1 (z26 / and
+                                             :op1 (z27 / invest-01
+                                                       :ARG2 (z28 / industry
+                                                                  :mod (z29 / defend-01)))
+                                             :op2 (z30 / construct-01
+                                                       :ARG1 z28)))
+                        :op4 (z31 / accelerate-01
+                                  :ARG0 z9
+                                  :ARG1 (z32 / and
+                                             :op1 (z33 / modernize-01
+                                                       :ARG1 (z34 / equipment
+                                                                  :mod (z35 / military)))
+                                             :op2 (z36 / internationalize-01
+                                                       :ARG1 z34)))
+                        :op5 (z37 / establish-01
+                                  :ARG0 z9
+                                  :ARG1 (z38 / division
+                                             :mod (z39 / elite)
+                                             :mod (z40 / quality
+                                                       :ARG1-of (z41 / high-02))
+                                             :mod (z42 / tech
+                                                       :ARG1-of (z43 / high-02))))))
+    :ARG2 z9
+    :ARG1-of (z44 / premise-01
+                  :ARG2 (z45 / avoid-01
+                             :ARG1 (z46 / influence-01
+                                        :ARG1 (z47 / develop-02
+                                                   :ARG1 (z48 / economy
+                                                              :mod (z49 / nation)))))))

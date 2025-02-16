@@ -1,0 +1,223 @@
+# ::id 0
+# ::annotator bart-amr
+# ::snt The best defense is to attack - we should strengthen forces which can engage in ultra-long-range attack, improve combat capability throughout all of aerospace, of great depth, and over great distances. On the premise of avoiding influence on national economic development, increase investment and construction of the defense industry, accelerate modernization and internationalization of military equipment, and establish a high-quality, high-tech elite division.
+(z0 / multi-sentence
+    :snt1 (z1 / defend-01
+              :ARG3 (z2 / attack-01)
+              :ARG1-of (z3 / have-degree-91
+                           :ARG2 (z4 / good-02
+                                     :ARG1 z1)
+                           :ARG3 (z5 / most)))
+    :snt2 (z6 / recommend-01
+              :ARG1 (z7 / and
+                        :op1 (z8 / strengthen-01
+                                 :ARG0 (z9 / we)
+                                 :ARG1 (z10 / force
+                                            :ARG0-of (z11 / engage-01
+                                                          :ARG2 (z12 / attack-01
+                                                                     :ARG1-of (z13 / range-01
+                                                                                   :ARG2 (z14 / long-03
+                                                                                              :degree (z15 / ultra))))
+                                                          :ARG1-of (z16 / possible-01))))
+                        :op2 (z17 / improve-01
+                                  :ARG0 z9
+                                  :ARG1 (z18 / capable-01
+                                             :ARG2 (z19 / combat-01))
+                                  :location (z20 / aerospace
+                                                 :mod (z21 / all))
+                                  :ARG1-of (z22 / deep-02
+                                                :mod (z23 / great))
+                                  :location (z24 / distance
+                                                 :mod z23))
+                        :op3 (z25 / accelerate-01
+                                  :ARG0 z9
+                                  :ARG1 (z26 / and
+                                             :op1 (z27 / invest-01
+                                                       :ARG2 (z28 / industry
+                                                                  :mod (z29 / defend-01)))
+                                             :op2 (z30 / construct-01
+                                                       :ARG1 z28)))
+                        :op4 (z31 / accelerate-01
+                                  :ARG0 z9
+                                  :ARG1 (z32 / and
+                                             :op1 (z33 / modernize-01
+                                                       :ARG1 (z34 / equipment
+                                                                  :mod (z35 / military)))
+                                             :op2 (z36 / internationalize-01
+                                                       :ARG1 z34)))
+                        :op5 (z37 / establish-01
+                                  :ARG0 z9
+                                  :ARG1 (z38 / division
+                                             :mod (z39 / elite)
+                                             :mod (z40 / quality
+                                                       :ARG1-of (z41 / high-02))
+                                             :mod (z42 / tech
+                                                       :ARG1-of (z43 / high-02))))))
+    :ARG2 z9
+    :ARG1-of (z44 / premise-01
+                  :ARG2 (z45 / avoid-01
+                             :ARG1 (z46 / influence-01
+                                        :ARG1 (z47 / develop-02
+                                                   :ARG1 (z48 / economy
+                                                              :mod (z49 / nation)))))))
+
+# ::id 1
+# ::annotator bart-amr
+# ::snt Other articles: "A book for Taiwan compatriots-I have a dream", "The necessity for building memorials museums or temples for Chinese national heroes", "How long will we tolerate it", "China is expecting the Olympics, but would never beg for the Olympics", "If we forget the hardship of history, there will be more history of hardship", "I am Chinese", "There is only one Chinese nation, there is only one Chinese culture", "With the over-development of sports, the state may decline", "'Wealthy country, strong people' or 'wealthy officials, poor people"?", "Disgusting Ren Zhiqiang, shut your filthy mouth", "Hateful housing prices! Pitiable people!", "Google, you have no right to make irresponsible remarks to China", "How long will we tolerate the US", "Japan deserved the bombing-strongly oppose Ban Ki-moon presenting a bouquet in Hiroshima", "Be strong, my brothers and sisters", "Do we need low-level entertainment stars, or talents in technological innovation?", "Contemporary garbage writer, shameless Li Yinhe, please let the children off the hook"
+(z0 / article
+    :mod (z1 / other)
+    :example (z2 / and
+                 :op1 (z3 / book
+                          :beneficiary (z4 / compatriot
+                                           :mod (z5 / country
+                                                    :wiki "Taiwan"
+                                                    :name (z6 / name
+                                                              :op1 "Taiwan")))
+                          :topic (z7 / have-03
+                                     :ARG0 (z8 / i)
+                                     :ARG1 (z9 / dream-01
+                                               :ARG0 z8)))
+                 :op2 (z10 / need-01
+                           :ARG1 (z11 / build-01
+                                      :ARG1 (z12 / or
+                                                 :op1 (z13 / museum)
+                                                 :op2 (z14 / temple))
+                                      :purpose (z15 / memorial
+                                                    :beneficiary (z16 / hero
+                                                                      :mod (z17 / nation)
+                                                                      :mod (z18 / country
+                                                                                :wiki "China"
+                                                                                :name (z19 / name
+                                                                                           :op1 "China"))))))
+                 :op3 (z20 / and
+                           :op1 (z21 / nation
+                                     :mod z18
+                                     :mod (z22 / only))
+                           :op2 (z23 / culture
+                                     :mod z18
+                                     :mod z18))
+                 :op4 (z24 / possible-01
+                           :ARG1 (z25 / decline-01
+                                      :ARG1 (z26 / state))
+                           :ARG1-of (z27 / cause-01
+                                         :ARG0 (z28 / develop-02
+                                                    :ARG1 (z29 / sport)
+                                                    :ARG1-of (z30 / over-03))))
+                 :op5 (z31 / or
+                           :op1 (z32 / country
+                                     :mod (z33 / wealth))
+                           :op2 (z34 / person
+                                     :ARG1-of (z35 / strong-02))
+                           :op3 (z36 / person
+                                     :mod (z37 / poor))
+                           :domain (z38 / amr-unknown))
+                 :op6 (z39 / and
+                           :op1 (z40 / expect-01
+                                     :ARG0 z18
+                                     :ARG1 (z41 / game
+                                                :wiki "Olympic_Games"
+                                                :name (z42 / name
+                                                           :op1 "Olympics"))
+                                     :ARG1-of (z43 / contrast-01
+                                                   :ARG2 (z44 / beg-01
+                                                              :polarity -
+                                                              :ARG0 z18
+                                                              :ARG2 z41
+                                                              :time (z45 / ever))))
+                           :op2 (z46 / have-condition-91
+                                     :ARG1 (z47 / history
+                                                :mod (z48 / hardship)
+                                                :quant (z49 / more))
+                                     :ARG2 (z50 / forget-01
+                                                :ARG0 (z51 / we)
+                                                :ARG1 (z52 / hardship
+                                                           :mod (z53 / history))))
+                           :op7 (z54 / say-01
+                                     :ARG0 z8
+                                     :ARG1 (z55 / person
+                                                :ARG1-of (z56 / possible-01)
+                                                :ARG1-of (z57 / prone-01)
+                                                :domain (z58 / person)))
+                           :op8 (z59 / say-01
+                                     :ARG0 z8
+                                     :ARG1 (z60 / and
+                                                :op1 (z61 / tolerate-01
+                                                          :ARG0 (z62 / we)
+                                                          :ARG1 (z63 / country
+                                                                     :wiki "United_States"
+                                                                     :name (z64 / name
+                                                                                :op1 "US"))
+                                                          :duration (z65 / amr-unknown))
+                                                :op2 (z66 / deserve-01
+                                                          :ARG0 (z67 / country
+                                                                     :wiki "Japan"
+                                                                     :name (z68 / name
+                                                                                :op1 "Japan"))
+                                                          :ARG1 (z69 / bomb-01))
+                                                :op3 (z70 / oppose-01
+                                                          :ARG0 z62
+                                                          :ARG1 (z71 / present-01
+                                                                     :ARG0 (z72 / person
+                                                                                :wiki "Ban_Ki-moon"
+                                                                                :name (z73 / name
+                                                                                           :op1 "Ban"
+                                                                                           :op2 "Ki-moon"))
+                                                                     :ARG1 (z74 / bouquet)
+                                                                     :location (z75 / city
+                                                                                    :wiki "Hiroshima"
+                                                                                    :name (z76 / name
+                                                                                               :op1 "Hiroshima")))
+                                                          :ARG1-of (z77 / strong-02))
+                                                :op4 (z78 / strong-02
+                                                          :ARG1 (z79 / and
+                                                                     :op1 (z80 / person
+                                                                               :ARG0-of (z81 / have-rel-role-91
+                                                                                             :ARG1 z8
+                                                                                             :ARG2 (z1000 / brother))
+                                                                               :op2 (z1001 / sister))))
+                                                :op5 (z1002 / need-01
+                                                            :ARG0 (z1003 / we)
+                                                            :ARG1 (z1004 / or
+                                                                         :op1 (z1005 / star
+                                                                                     :mod (z1006 / entertainment)
+                                                                                     :mod (z1007 / level
+                                                                                                 :ARG1-of (z82 / low-04)))
+                                                                         :op2 (z83 / talent
+                                                                                   :topic (z84 / innovate-01
+                                                                                               :ARG1 (z85 / technology))))
+                                                            :polarity (z86 / amr-unknown))
+                                                :op6 (z87 / person
+                                                          :wiki "Li_Yinhe"
+                                                          :name (z88 / name
+                                                                     :op1 "Li"
+                                                                     :op2 "Yinhe")
+                                                          :ARG0-of (z91 / write-01
+                                                                        :ARG1 (z92 / garbage)
+                                                                        :mod (z1008 / contemporary))
+                                                          :ARG0-of (z94 / shame-01))
+                                                :op7 (z1009 / say-01
+                                                            :ARG0 z8
+                                                            :ARG1 (z1010 / let-01
+                                                                         :mode imperative
+                                                                         :polite +
+                                                                         :ARG0 (z1011 / person
+                                                                                      :ARG0-of (z1012 / have-rel-role-91
+                                                                                                      :ARG2 (z1013 / child)))
+                                                                         :ARG1 (z1014 / hook-01
+                                                                                      :ARG1 z1011)))
+                                                :ARG2 (z1015 / person
+                                                             :ARG1-of (z1016 / terrible-01)))))
+                 :op8 (z1017 / say-01
+                             :ARG0 z8
+                             :ARG1 (z1018 / have-03
+                                          :polarity -
+                                          :ARG0 (z1019 / company
+                                                       :wiki "Google"
+                                                       :name (z1020 / name
+                                                                    :op1 "Google"))
+                                          :ARG1 (z1021 / right-05)
+                                          :ARG2 (z1022 / remark-01
+                                                       :ARG0 z1018
+                                                       :ARG2 z18
+                                                       :ARG1-of (z1023 / responsible-02
+                                                                       :polarity -))))))

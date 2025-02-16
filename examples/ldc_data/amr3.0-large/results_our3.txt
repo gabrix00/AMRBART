@@ -1,0 +1,14 @@
+bash eval_smatch.sh /home/gtuccio/AMRBART/examples/ldc_data/ldc_clean_test.txt /home/gtuccio/AMRBART/examples/ldc_data/amr3.0-large/pred_our3_test_clean.txt
+
+Smatch           -> P: 0.797,  R: 0.783,  F: 0.790
+Unlabeled        -> P: 0.846,  R: 0.830,  F: 0.838
+No WSD           -> P: 0.802,  R: 0.788,  F: 0.795
+Non_sense_frames -> P: 0.866,  R: 0.886,  F: 0.876
+Wikification     -> P: 0.872,  R: 0.843,  F: 0.857
+Named Ent.       -> P: 0.896,  R: 0.882,  F: 0.889
+Negations        -> P: 0.700,  R: 0.778,  F: 0.737
+IgnoreVars       -> P: 0.676,  R: 0.667,  F: 0.672
+Concepts         -> P: 0.883,  R: 0.872,  F: 0.878
+Frames           -> P: 0.831,  R: 0.852,  F: 0.841
+Reentrancies     -> P: 0.673,  R: 0.677,  F: 0.675
+SRL              -> P: 0.740,  R: 0.747,  F: 0.743

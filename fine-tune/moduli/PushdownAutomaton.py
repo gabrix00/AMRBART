@@ -32,7 +32,7 @@ class PushdownAutomaton:
                     self.map_tokens_terminals[token] = []
                 self.map_tokens_terminals[token].append(terminal)
         
-        print(self.map_tokens_terminals)
+        #print(self.map_tokens_terminals)
 
     
     def recursive_get_tokens(self,stack):
@@ -65,6 +65,7 @@ class PushdownAutomaton:
         terminals = self.recursive_get_tokens(self.stack.copy())
         tokens = set()
         for terminal in terminals:
+            print(terminal)
             assert set(self.map_terminals_tokens[terminal]).isdisjoint(tokens), "Gli insiemi dei token associati ai terminali ammissibili non sono disgiunti"
             tokens.update(self.map_terminals_tokens[terminal])
 
@@ -78,6 +79,9 @@ class PushdownAutomaton:
         #print(f"token_gen:{token_gen}\n") #debug
         #qui token dovrebbe essere sostituito con terminal, perchè significa quello in realtà
         #print(f"\ncurrent terminals: {self.current_terminals}, mapped_token2terminal{self.map_tokens_terminals[token_gen]}")
+        #if self.eos:
+        #    return "eos raggiunto tramite stack vuoto"
+        print(f"current terminals is:{self.current_terminals}")
         check_terminals = set(self.map_tokens_terminals[token_gen]).intersection(set(self.current_terminals))
         print(f"check_terminals is: {check_terminals}")
         assert len(check_terminals) == 1, "Scelto un token ambiguo, in quanto corrispondente a più possibili terminali per questo stato"

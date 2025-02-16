@@ -57,114 +57,17 @@
     :ARG1-of (z14 / describe-01
                   :ARG0 (z15 / video)))
 
-# ::id 2
+# ::id 97
 # ::annotator bart-amr
-# ::snt Fleets bumping fishing boats. Little evil Japanese ghosts stirring up trouble and unrest. With hearts of thieves and arrogant form, they again show their wolfish appearance
-(z0 / multi-sentence
-    :snt1 (z1 / bump-01
-              :ARG0 (z2 / fleabag)
-              :ARG1 (z3 / boat
-                        :purpose (z4 / fish-01)))
-    :snt2 (z5 / stir-up-04
-              :ARG0 (z6 / ghost
-                        :mod (z7 / evil)
-                        :mod (z8 / country
-                                 :wiki "Japan"
-                                 :name (z9 / name
-                                           :op1 "Japan"))
-                        :mod (z10 / little))
-              :ARG1 (z11 / and
-                         :op1 (z12 / trouble-01)
-                         :op2 (z13 / unrest)))
-    :snt3 (z14 / show-01
-               :ARG0 (z15 / they)
-               :ARG1 (z16 / appearance
-                          :mod (z17 / wolfish)
-                          :poss z15
-                          :mod (z18 / apparent))
-               :mod (z19 / again)
-               :instrument (z20 / and
-                                :op1 (z21 / heart
-                                          :part-of (z22 / person
-                                                        :ARG0-of (z23 / steal-01)))
-                                :op2 (z24 / form
-                                          :mod (z25 / arrogant))))
-    :snt4 (z26 / show-01
-               :ARG0 (z27 / they)
-               :ARG1 (z28 / appear-01
-                          :ARG1 z27
-                          :mod (z29 / eye
-                                    :part-of (z30 / person
-                                                  :ARG0-of (z31 / steal-01))))
-               :mod (z32 / again)
-               :ARG0-of (z33 / cause-01
-                             :ARG1 (z34 / effort-01
-                                        :ARG0 z27
-                                        :ARG1 (z35 / oil))))
-    :snt5 (z36 / effort-01
-               :ARG0 (z37 / person)
-               :ARG1 (z38 / clean-up-02)
-               :ARG0-of (z39 / cause-01
-                             :ARG1 (z40 / trouble)))
-    :snt1 (z41 / bump-01
-               :ARG0 (z42 / fleabag)
-               :ARG1 (z43 / boat
-                          :purpose (z44 / fish-01))))
+# ::snt There are top scorer in the Imperial Examination in all 360 walks of life! What effort and endeavor behind those top scorer in the Imperial Examination! This is humiliating the word " bean vermicelli"!
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
 
-# ::id 3
+# ::id 97
 # ::annotator bart-amr
-# ::snt Never go back to that time, our humiliating appearance when signing the treaties. China be strong, swords be sharp and knives be shining, let's bury the approaching enemies!
-(z0 / multi-sentence
-    :snt1 (z1 / go-back-19
-              :polarity -
-              :ARG1 (z2 / we)
-              :ARG2 (z3 / time
-                        :mod (z4 / that)
-                        :ARG1-of (z5 / appear-01
-                                     :time (z6 / sign-02
-                                               :ARG0 z2
-                                               :ARG1 (z7 / treaty))
-                                     :ARG0-of (z8 / humiliate-01
-                                                  :ARG1 z2)))
-              :time (z9 / ever))
-    :snt2 (z10 / and
-               :op1 (z11 / strong-02
-                         :ARG1 (z12 / country
-                                    :wiki "China"
-                                    :name (z13 / name
-                                               :op1 "China")))
-               :op2 (z14 / sharp-02
-                         :ARG1 (z15 / sword))
-               :op3 (z16 / shine-01
-                         :ARG1 (z17 / knife))
-               :op4 (z18 / bury-01
-                         :mode imperative
-                         :ARG0 (z19 / we)
-                         :ARG1 (z20 / enemy
-                                    :ARG1-of (z21 / approach-01))))
-    :snt3 (z22 / date-entity
-               :day 1
-               :month 2
-               :time-of (z23 / visit-01
-                             :ARG0 (z24 / we)
-                             :ARG1 (z25 / time
-                                        :mod (z26 / that))
-                             :ARG1-of (z27 / humiliate-01)))
-    :snt4 (z28 / and
-               :op1 (z29 / strong-02
-                         :ARG1 (z30 / country
-                                    :wiki "China"
-                                    :name (z31 / name
-                                               :op1 "China")))
-               :op2 (z32 / sharp-02
-                         :ARG1 (z33 / sword))
-               :op3 (z34 / shine-01
-                         :ARG1 (z35 / knife)))
-    :snt5 (z36 / bury-01
-               :mode imperative
-               :ARG0 z19
-               :ARG1 (z37 / enemy
-                          :ARG1-of (z38 / approach-01))))
+# ::snt There are top scorer in the Imperial Examination in all 360 walks of life! What effort and endeavor behind those top scorer in the Imperial Examination! This is humiliating the word " bean vermicelli"!
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
 
 # ::id 4
 # ::annotator bart-amr
@@ -236,81 +139,11 @@
                           :mode expressive)
                :ARG2 (z34 / i)))
 
-# ::id 6
+# ::id 97
 # ::annotator bart-amr
-# ::snt I very much wish I had been born in those passionate and upsurging times of Mao Zedong, the Long March, losing my head and shedding my blood, completely extinguishing all the enemies that wrong China, spreading our dragon prestige!
-(z0 / multi-sentence
-    :snt1 (z1 / wish-01
-              :ARG0 (z2 / i)
-              :ARG1 (z3 / bear-02
-                        :ARG1 z2
-                        :time (z4 / and
-                                  :op1 (z5 / time
-                                           :poss (z6 / person
-                                                     :wiki "Mao_Zedong"
-                                                     :name (z7 / name
-                                                               :op1 "Mao"
-                                                               :op2 "Zedong"))
-                                           :mod (z8 / passionate)
-                                           :ARG0-of (z9 / surge-01))
-                                  :op2 (z10 / date-entity
-                                            :month 3
-                                            :time-of (z11 / Long-02))
-                                  :op3 (z12 / lose-02
-                                            :ARG0 z2
-                                            :ARG1 (z13 / head
-                                                       :part-of z2))
-                                  :op4 (z14 / shed-01
-                                            :ARG0 z2
-                                            :ARG1 (z15 / blood
-                                                       :poss z2))
-                                  :op5 (z16 / extinguish-01
-                                            :ARG0 z2
-                                            :ARG1 (z17 / person
-                                                       :ARG0-of (z18 / have-rel-role-91
-                                                                     :ARG1 z2
-                                                                     :ARG2 (z19 / enemy
-                                                                                :ARG0-of (z20 / wrong-02
-                                                                                              :ARG1 (z21 / country
-                                                                                                         :wiki "China"
-                                                                                                         :name (z22 / name
-                                                                                                                    :op1 "China")))))
-                                                       :mod (z23 / all))
-                                            :ARG1-of (z24 / complete-02))
-                                  :op6 (z25 / spread-01
-                                            :ARG0 z2
-                                            :ARG1 (z26 / prestige
-                                                       :mod (z27 / dragon)
-                                                       :poss (z28 / we)))))
-              :mod (z29 / much
-                        :degree (z30 / very)))
-    :snt2 (z31 / and
-               :op1 (z32 / date-entity
-                         :year 1969
-                         :time-of (z33 / visit-01
-                                       :ARG0 (z34 / person
-                                                  :wiki "Mao_Zedong"
-                                                  :name (z35 / name
-                                                             :op1 "Mao"
-                                                             :op2 "Zedong"))
-                                       :ARG1 (z36 / province
-                                                  :wiki "Long_March"
-                                                  :name (z37 / name
-                                                             :op1 "Long"
-                                                             :op2 "March"))))
-               :op2 (z38 / date-entity
-                         :year 1969
-                         :time-of (z39 / surge-01
-                                       :ARG1 (z40 / prestige
-                                                  :mod (z41 / dragon)
-                                                  :poss z28))))
-    :snt3 (z42 / date-entity
-               :year 1969
-               :time-of (z43 / event
-                             :wiki "Long_March"
-                             :name (z44 / name
-                                        :op1 "Long"
-                                        :op2 "March"))))
+# ::snt There are top scorer in the Imperial Examination in all 360 walks of life! What effort and endeavor behind those top scorer in the Imperial Examination! This is humiliating the word " bean vermicelli"!
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
 
 # ::id 7
 # ::annotator bart-amr
@@ -350,88 +183,17 @@
                            :op2 (z7 / event
                                     :mod (z8 / pathetic)))))
 
-# ::id 9
+# ::id 97
 # ::annotator bart-amr
-# ::snt Hello, everyone! We all know the "September 18th" Incident, but now Japan again has a premeditated plan for another "September 18th" on the sea, another "Lugou Bridge on the sea".
-(z0 / multi-sentence
-    :snt1 (z1 / say-01
-              :ARG1 (z2 / hello)
-              :ARG2 (z3 / everyone))
-    :snt2 (z4 / contrast-01
-              :ARG1 (z5 / know-01
-                        :ARG0 (z6 / we
-                                  :mod (z7 / all))
-                        :ARG1 (z8 / incident
-                                  :wiki "September_18_attacks"
-                                  :name (z9 / name
-                                            :op1 "September"
-                                            :op2 "18")))
-              :ARG2 (z10 / plan-01
-                         :ARG0 (z11 / country
-                                    :wiki "Japan"
-                                    :name (z12 / name
-                                               :op1 "Japan"))
-                         :ARG1 (z13 / and
-                                    :op1 (z14 / date-entity
-                                              :month 9
-                                              :day 18
-                                              :mod (z15 / another))
-                                    :op2 (z16 / bridge
-                                              :wiki "Lugou_Bridge"
-                                              :name (z17 / name
-                                                         :op1 "Lugou"
-                                                         :op2 "Bridge")
-                                              :mod (z18 / another)
-                                              :location (z19 / sea)))
-                         :ARG1-of (z20 / precient-00))
-              :time (z21 / now)
-              :mod (z22 / again))
-    :snt3 (z23 / loophole
-               :ARG1-of (z24 / cause-01
-                             :ARG0 (z25 / event))
-               :domain (z26 / event
-                            :wiki "September_18_attacks"
-                            :name (z27 / name
-                                       :op1 "September"
-                                       :op2 "18")))
-    :snt4 (z28 / say-01
-               :ARG1 (z29 / kill-01
-                          :ARG1 (z30 / everyone))))
+# ::snt There are top scorer in the Imperial Examination in all 360 walks of life! What effort and endeavor behind those top scorer in the Imperial Examination! This is humiliating the word " bean vermicelli"!
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
 
-# ::id 10
+# ::id 97
 # ::annotator bart-amr
-# ::snt Japan surprisingly defied the strong condemnation of the whole world, openly invaded our country's sacred territory, "the Diaoyu Islands".
-(z0 / and
-    :op1 (z1 / defy-01
-             :ARG0 (z2 / country
-                       :wiki "Japan"
-                       :name (z3 / name
-                                 :op1 "Japan"))
-             :ARG1 (z4 / condemn-01
-                       :ARG0 (z5 / world
-                                 :mod (z6 / whole))
-                       :ARG1 z2
-                       :ARG1-of (z7 / strong-02))
-             :ARG0-of (z8 / surprise-01))
-    :op2 (z9 / invade-01
-             :ARG0 z2
-             :ARG1 (z10 / territory
-                        :wiki "Senkaku_Islands"
-                        :name (z11 / name
-                                   :op1 "Diaoyu"
-                                   :op2 "Islands")
-                        :mod (z12 / sacred)
-                        :poss (z13 / country
-                                   :poss (z14 / we)))
-             :ARG1-of (z15 / open-04))
-    :op3 (z16 / invade-01
-              :ARG0 z2
-              :ARG1 z10
-              :ARG1-of (z17 / open-04))
-    :op4 (z18 / describe-01
-              :ARG0 (z19 / publication)
-              :ARG1 z1
-              :ARG2 (z20 / speak-01)))
+# ::snt There are top scorer in the Imperial Examination in all 360 walks of life! What effort and endeavor behind those top scorer in the Imperial Examination! This is humiliating the word " bean vermicelli"!
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
 
 # ::id 11
 # ::annotator bart-amr
@@ -515,22 +277,33 @@
                           :ARG0 (z22 / we)
                           :ARG1 (z23 / this)))
     :snt5 (z24 / no)
-    :snt1 (z25 / absolute
+    :snt6 (z25 / absolute
                :polarity -)
-    :snt1 (z26 / cause-01
-               :ARG0 (z27 / amr-unknown)
-               :ARG1 (z28 / need-01
-                          :ARG1 (z29 / negotiate-01
-                                     :ARG2 (z30 / we))))
-    :snt1 (z31 / cause-01
-               :ARG0 (z32 / go-01
-                          :ARG1 (z33 / country
+    :snt7 (z26 / cause-01
+               :ARG1 (z27 / need-01
+                          :ARG1 (z28 / negotiate-01
+                                     :ARG0 z22)
+                          :location z8))
+    :snt8 (z29 / cause-01
+               :ARG1 (z30 / go-01
+                          :ARG1 (z31 / country
                                      :wiki "Japan"
-                                     :name (z34 / name
+                                     :name (z32 / name
                                                 :op1 "Japan"))
-                          :ARG2 (z35 / further
-                                     :degree (z36 / more)
-                                     :mod (z37 / even)))))
+                          :ARG2 (z33 / further
+                                     :mod (z34 / even))))
+    :snt9 (z35 / allow-01
+               :polarity -
+               :ARG0 z22
+               :ARG1 z23)
+    :snt10 (z36 / have-polarity-91
+                :ARG2 -
+                :ARG1-of (z37 / absolute))
+    :snt11 (z38 / cause-01
+                :ARG1 (z39 / sad-02
+                           :ARG1 (z40 / effort-01
+                                      :ARG1 (z41 / negotiate-01
+                                                 :ARG0 (z42 / we))))))
 
 # ::id 13
 # ::annotator bart-amr
@@ -731,13 +504,29 @@
                                                              :ARG1-of (z90 / die-01)))
                                     :ARG2 (z91 / bare-02
                                                :ARG1 z66)))
-               :snt2 (z92 / and
-                          :op1 (z93 / kill-01
-                                    :ARG0 (z94 / person)
-                                    :ARG1 (z95 / person))
-                          :op2 (z96 / kill-01
-                                    :ARG0 z94
-                                    :ARG1 z97))))
+               :snt6 (z92 / lay-01
+                          :ARG0 (z93 / battle-01
+                                     :location (z94 / city
+                                                    :wiki "Tianjin"
+                                                    :name (z95 / name
+                                                               :op1 "Jinjin"))
+                                     :ARG1 (z96 / bone
+                                                :part-of (z97 / person
+                                                              :ARG1-of (z98 / die-01))
+                                                :ARG2 (z99 / over
+                                                           :op1 (z100 / distance-quantity
+                                                                      :quant 1000
+                                                                      :unit (z101 / kilometer))))))
+               :snt7 (z102 / be-located-at-91
+                           :ARG1 (z103 / event
+                                       :wiki "Tiananmen_Square"
+                                       :name (z104 / name
+                                                   :op1 "Northeast"))
+                           :ARG2 (z105 / person
+                                       :ARG0-of (z106 / have-rel-role-91
+                                                      :ARG1 (z107 / person)
+                                                      :ARG2 (z108 / capital)))))
+    :mod (z110 / expensive))
 
 # ::id 16
 # ::annotator bart-amr
@@ -1007,7 +796,19 @@
                           :ARG1 (z35 / territory)
                           :ARG2 (z36 / matter
                                      :topic (z37 / dignity))))
-    :polarity -)
+    :snt6 (z38 / have-concession-91
+               :ARG1 (z39 / possible-01
+                          :polarity -
+                          :ARG1 (z40 / let-01
+                                     :ARG0 z26
+                                     :ARG1 (z41 / separate-01
+                                                :ARG0 z26
+                                                :ARG1 (z42 / land
+                                                           :poss z26
+                                                           :mod (z43 / native)))))
+               :ARG2 (z44 / scar-01
+                          :ARG1 z26
+                          :ARG2 (z45 / wound))))
 
 # ::id 22
 # ::annotator bart-amr
@@ -1282,8 +1083,15 @@
                :ARG1 (z19 / serious-01))
     :snt5 (z20 / sense-02
                :ARG1 (z21 / thing))
-    :polarity -
-    :ARG0 z2)
+    :snt6 (z22 / have-purpose-91
+               :ARG2 (z23 / offend-01))
+    :snt7 (z24 / have-purpose-91
+               :ARG2 (z25 / thing
+                          :ARG1-of (z26 / want-01
+                                        :polarity -
+                                        :ARG0 z2))
+               :snt8 (z27 / person
+                          :mod (z28 / other))))
 
 # ::id 29
 # ::annotator bart-amr
@@ -1681,55 +1489,8 @@
     :snt5 (z59 / peace
                :location (z60 / throughout
                               :op1 (z61 / world)))
-    :snt1 (z62 / citizen
-               :mod (z63 / fellow)
-               :poss (z64 / i))
-    :snt2 (z65 / contrast-01
-               :ARG1 (z66 / want-01
-                          :ARG0 (z67 / we)
-                          :ARG1 (z68 / and
-                                     :op1 (z69 / develop-02)
-                                     :op2 (z70 / peace)))
-               :ARG2 (z71 / obligate-01
-                          :ARG1 z67
-                          :ARG2 (z72 / forbear-01
-                                     :polarity -
-                                     :ARG0 z67)
-                          :time (z73 / ever)))
-    :snt3 (z74 / aggravate-01
-               :ARG0 (z75 / protocol
-                          :wiki -
-                          :name (z76 / name
-                                     :op1 "Boxer"
-                                     :op2 "protocol")
-                          :topic (z77 / and
-                                      :op1 (z78 / betray-01
-                                                :ARG0 (z79 / nation))
-                                      :op2 (z80 / humiliate-01
-                                                :ARG1 z10))
-                          :time (z81 / time
-                                     :ARG1-of (z82 / modern-02))))
-    :snt4 (z83 / aggravate-01
-               :ARG0 (z84 / fall-04
-                          :ARG1 (z85 / country
-                                     :wiki "China"
-                                     :name (z86 / name
-                                                :op1 "China"))
-                          :ARG2 (z87 / behind
-                                     :op1 (z88 / and
-                                               :op1 (z89 / poor)
-                                               :op2 (z90 / backwardness)))
-                          :ARG1 (z91 / country
-                                     :wiki "United_States"
-                                     :name (z92 / name
-                                                :op1 "China"))))
-    :snt5 (z93 / lead-03
-               :ARG0 (z94 / fall-04
-                          :ARG1 z85
-                          :ARG2 (z95 / behind
-                                     :op1 (z96 / person)))
-               :ARG2 (z97 / bully-01
-                          :ARG1 z98)))
+    :mod (z63 / fellow)
+    :poss (z64 / i))
 
 # ::id 37
 # ::annotator bart-amr
@@ -2033,7 +1794,14 @@
                                                                        :op1 "United"
                                                                        :op2 "States"))
                                                   :op2 (z36 / around
-                                                            :op1 (z37 / world)))))))
+                                                            :op1 (z37 / world))))))
+    :ARG0 (z39 / event)
+    :ARG1 (z40 / cause-01
+               :ARG1 (z42 / despair-01
+                          :ARG0 (z43 / person)
+                          :ARG1 (z44 / and
+                                     :op1 (z45 / home)
+                                     :op2 (z46 / abroad)))))
 
 # ::id 44
 # ::annotator bart-amr
@@ -2269,38 +2037,29 @@
                                                           :poss z24)))
                           :prep-in (z32 / responsible-03
                                         :ARG0 z24)))
-    :snt1 (z33 / say-01
-               :ARG1 (z34 / possible-01
-                          :ARG1 (z35 / strive-01
+    :snt6 (z33 / cause-01
+               :ARG0 (z34 / duty
+                          :poss z24)
+               :ARG1 (z35 / obligate-01
+                          :ARG1 z24
+                          :ARG2 (z36 / carry-on-02
                                      :ARG0 z24
-                                     :ARG1 (z36 / strong-02
-                                                :ARG1 (z37 / and
-                                                           :op1 (z38 / courage
-                                                                     :poss z24)
-                                                           :op2 (z39 / insight
-                                                                     :poss z24)
-                                                           :op3 (z40 / will
-                                                                     :poss z24
-                                                                     :ARG1-of (z41 / strong-02)))))
-                          :ARG2 (z42 / citizen
-                                     :mod (z43 / fellow)
-                                     :poss z3)))
-    :snt2 (z44 / be-temporally-at-91
-               :ARG1 (z45 / effort-01
-                          :ARG0 z24)
-               :ARG2 (z46 / date-entity
-                          :day 1
-                          :month 2))
-    :snt3 (z47 / be-temporally-at-91
-               :ARG1 (z48 / effort-01
-                          :ARG0 (z49 / we)
-                          :ARG1 (z50 / strong-02
-                                     :ARG1 (z51 / and
-                                                :op1 (z52 / confidence
-                                                          :poss z49)
-                                                :op2 (z53 / improve-01
-                                                          :ARG1 z53))))
-               :ARG2 (z54 / only)))
+                                     :ARG1 (z37 / and
+                                                :op1 (z38 / farsight-00
+                                                          :ARG1 (z39 / we))
+                                                :op2 (z40 / insight-01
+                                                          :ARG0 z39)
+                                                :op3 (z41 / will
+                                                          :ARG1-of (z42 / strong-02)
+                                                          :poss (z43 / predecessor
+                                                                     :poss z24))))))
+    :snt7 (z44 / speak-01
+               :ARG0 (z45 / we)
+               :ARG1 (z46 / and
+                          :op1 (z47 / confidence
+                                    :mod (z48 / self))
+                          :op2 (z49 / improve-01
+                                    :ARG1 z48))))
 
 # ::id 53
 # ::annotator bart-amr
@@ -2336,7 +2095,8 @@
                                                                             :time (z25 / previous))))
                                      :ARG1-of (z26 / fill-01
                                                    :polarity -)
-                                     :ARG1-of (z27 / intend-01))
+                                     :ARG1-of (z27 / ful-03
+                                                   :polarity -))
                           :direction (z28 / forward))
                :manner (z29 / courageous))
     :snt3 (z30 / law
@@ -2352,7 +2112,7 @@
     :snt5 (z36 / law
                :polarity -
                :ARG0-of (z37 / cause-01
-                             :ARG1 (z38 / fear-01))))
+                             :ARG1 (z38 / shock-01))))
 
 # ::id 54
 # ::annotator bart-amr
@@ -2554,15 +2314,13 @@
     :ARG1 (z4 / wave
               :ARG0-of (z5 / fly-01)
               :ARG0-of (z6 / thing
-                           :subevent-01 (z7 / effort-01
-                                            :ARG1 (z8 / and
-                                                      :op1 (z9 / peak-01)
-                                                      :op2 (z10 / effort-01
-                                                                :ARG1 (z11 / attract-01))))))
-    :ARG0-of (z12 / cause-01
-                  :ARG1 (z13 / effort-01
-                             :ARG1 (z14 / aircraft
-                                        :ARG0-of (z15 / fly-01)))))
+                           :ARG2 (z7 / event
+                                     :ARG0-of (z8 / cause-01
+                                                  :ARG1 (z9 / distress-01)))))
+    :ARG0-of (z10 / cause-01
+                  :ARG1 (z11 / effort-01
+                             :ARG0-of (z12 / cause-01
+                                           :ARG1 (z13 / effort-01)))))
 
 # ::id 62
 # ::annotator bart-amr
@@ -2774,22 +2532,72 @@
                                            :degree (z59 / over)))
                  :op10 (z60 / or
                             :op1 (z61 / country
-                                      :mod (z62 / wealth))
+                                      :mod (z62 / althy))
                             :op2 (z63 / person
-                                      :mod (z64 / poor)
-                                      :ARG0-of (z65 / have-org-role-91
-                                                    :ARG2 (z66 / official)))))
-    :op11 (z67 / shut-up-06
+                                      :mod (z64 / wealth))
+                            :op3 (z65 / person
+                                      :mod (z66 / poor)
+                                      :ARG0-of (z67 / have-org-role-91
+                                                    :ARG2 (z68 / official)))))
+    :op11 (z69 / shut-up-06
                :mode imperative
-               :ARG1 (z68 / person
+               :ARG0 (z70 / person
                           :wiki "Ren_Zhiqiang"
-                          :name (z69 / name
+                          :name (z71 / name
                                      :op1 "Ren"
                                      :op2 "Zhiqiang")
-                          :ARG0-of (z70 / write-01
-                                        :mod (z71 / garbage)))
-               :op2 (z72 / facility
-                         :mod (z73 / filthy))))
+                          :ARG0-of (z72 / write-01
+                                        :mod (z73 / garbage)))
+               :ARG1 (z74 / mouth
+                          :part-of (z75 / you)
+                          :mod (z76 / filthy)))
+    :op12 (z77 / recommend-01
+               :ARG1 (z78 / let-down-04
+                          :ARG0 (z79 / you)
+                          :ARG1 (z80 / person
+                                     :ARG0-of (z81 / house-01)
+                                     :mod (z82 / iable
+                                               :polarity -))))
+    :op13 (z83 / deserve-01
+               :ARG0 (z84 / you)
+               :ARG1 (z85 / remark-01
+                          :ARG0 z84
+                          :ARG2 z15
+                          :ARG1-of (z86 / responsible-02
+                                        :polarity -))
+               :time (z87 / ever))
+    :op14 (z88 / deserve-01
+               :ARG0 (z89 / country
+                          :wiki "Japan"
+                          :name (z90 / name
+                                     :op1 "Japan"))
+               :ARG1 (z91 / bomb-01)
+               :manner (z92 / strong-02))
+    :op15 (z93 / support-01
+               :mode interrogative
+               :ARG0 (z94 / you)
+               :ARG1 (z95 / oppose-01
+                          :ARG0 z5
+                          :ARG1 (z96 / person
+                                     :wiki "Ban_Ki-moon"
+                                     :name (z97 / name
+                                                :op1 "Ban"
+                                                :op2 "Ki-moon"))
+                          :ARG3 (z98 / bouquet
+                                     :location (z99 / city
+                                                    :wiki "Hiroshima"
+                                                    :name (z100 / name
+                                                                :op1 "Hiroshima"))))
+               :op16 (z101 / strong-02
+                           :ARG1 (z102 / you))
+               :op17 (z103 / and
+                           :op1 (z104 / brother)
+                           :op2 (z105 / sister)
+                           :poss (z106 / i)))
+    :op18 (z108 / you)
+    :ARG1-of (z109 / cause-01
+                   :ARG0 (z110 / develop-02
+                               :ARG1 (z1000 / technology))))
 
 # ::id 69
 # ::annotator bart-amr
@@ -3041,10 +2849,18 @@
                :ARG1 (z22 / start-01
                           :ARG0 z20
                           :ARG1 (z23 / war)))
-    :snt1 (z24 / slap-02
+    :snt6 (z24 / slap-01
                :ARG1 (z25 / face
                           :part-of (z26 / country))
-               :ARG1-of (z27 / harsh-02)))
+               :ARG1-of (z27 / harsh-02))
+    :snt7 (z28 / comment-01
+               :ARG0 (z29 / country)
+               :ARG3 (z30 / rear
+                          :poss (z31 / country
+                                     :wiki "United_States"
+                                     :name (z32 / name
+                                                :op1 "United"
+                                                :op2 "States")))))
 
 # ::id 77
 # ::annotator bart-amr
@@ -3108,90 +2924,59 @@
                :ARG0 (z40 / you
                           :ARG1-of z39)
                :ARG2 (z41 / up))
-    :snt1 (z42 / let-01
+    :snt6 (z42 / say-01
                :mode imperative
                :ARG0 (z43 / you)
-               :ARG1 (z44 / and
-                          :op1 (z45 / have-03
-                                    :ARG0 (z46 / country
-                                               :wiki "China"
-                                               :name (z47 / name
-                                                          :op1 "China"))
-                                    :ARG1 (z48 / blood
-                                               :ARG1-of (z49 / new-01)))
-                          :op2 (z50 / get-04
-                                    :mode imperative
-                                    :ARG0 z46
-                                    :ARG1 (z51 / update-02
-                                               :ARG1 z46))))
-    :snt1 (z52 / let-01
+               :ARG1 (z44 / country
+                          :wiki "China"
+                          :name (z45 / name
+                                     :op1 "China"))
+               :ARG2 (z46 / up))
+    :snt7 (z47 / say-01
                :mode imperative
-               :ARG0 (z53 / you)
-               :ARG1 (z54 / and
-                          :op1 (z55 / have-03
-                                    :ARG0 z46
-                                    :ARG1 (z56 / blood
-                                               :ARG1-of (z57 / new-01)))
-                          :op2 (z58 / up
-                                    :domain z46)))
-    :snt1 (z59 / let-01
-               :mode imperative
-               :ARG0 (z60 / you)
-               :ARG1 (z61 / up
-                          :domain (z62 / country
+               :ARG0 z43
+               :ARG1 (z48 / panacea
+                          :polarity -
+                          :domain (z49 / country
                                        :wiki "United_States"
-                                       :name (z63 / name
+                                       :name (z50 / name
                                                   :op1 "US"))))
-    :snt2 (z64 / possible-01
-               :ARG1 (z65 / and
-                          :op1 (z66 / increase-01
-                                    :ARG0 (z67 / we)
-                                    :ARG1 (z68 / influence-01
-                                               :ARG0 (z69 / country
-                                                          :wiki "China"
-                                                          :name (z70 / name
-                                                                     :op1 "China"))))
-                          :op2 (z71 / improve-01
-                                    :ARG0 z67
-                                    :ARG1 (z72 / cohesion
-                                               :poss (z73 / citizenry)))
-                          :condition (z74 / lose-03
-                                          :ARG0 (z75 / we))))
-    :snt3 (z76 / possible-01
-               :ARG1 (z77 / and
-                          :op1 (z78 / clean-out-03
-                                    :ARG0 (z79 / we)
-                                    :ARG1 (z80 / bureaucrat
-                                               :ARG1-of (z81 / competent-01
-                                                             :polarity -))
-                                    :op2 (z82 / make-02
-                                              :ARG0 z79
-                                              :ARG1 (z83 / out-06
-                                                         :ARG1 z80)))))
-    :snt4 (z84 / let-01
-               :mode imperative
-               :ARG0 (z85 / you)
-               :ARG1 (z86 / and
-                          :op1 (z87 / blood
-                                    :ARG1-of (z88 / new-01))
-                          :op2 (z89 / update-02
-                                    :ARG0 (z106 / up
-                                                :domain (z107 / you))
-                                    :ARG1 z88)))
-    :snt5 (z98 / let-01
-               :mode imperative
-               :ARG0 (z99 / you)
-               :ARG1 (z100 / and
-                           :op1 (z101 / body
-                                      :domain (z102 / country
-                                                    :wiki "United_States"
-                                                    :name (z103 / name
-                                                                :op1 "America"))
-                                      :op2 (z104 / person
-                                                 :wiki "China"
-                                                 :name (z105 / name
-                                                             :op1 "China")))))
-    :snt2 z106)
+    :snt8 (z51 / and
+               :op1 (z52 / increase-01
+                         :ARG0 (z53 / it)
+                         :ARG1 (z54 / influence-01
+                                    :ARG0 (z55 / country
+                                               :wiki "China"
+                                               :name (z56 / name
+                                                          :op1 "China"))))
+               :op2 (z57 / improve-01
+                         :ARG0 z53
+                         :ARG1 (z58 / cohesion
+                                    :poss (z59 / citizenry)))
+               :condition (z60 / lose-03
+                               :ARG0 (z61 / we)))
+    :snt9 (z62 / possible-01
+               :ARG1 (z63 / and
+                          :op1 (z64 / clean-up-02
+                                    :ARG0 (z65 / we)
+                                    :ARG1 (z66 / bureaucrat
+                                               :ARG1-of (z67 / competent-01
+                                                             :polarity -)
+                                               :mod (z68 / that))
+                                    :op2 (z69 / make-02
+                                              :ARG0 z65
+                                              :ARG1 (z70 / get-05
+                                                         :ARG1 (z71 / trash
+                                                                    :mod z66)
+                                                         :ARG2 (z72 / out)))))
+               :snt10 (z73 / get-05
+                           :mode imperative
+                           :ARG0 (z74 / you)
+                           :ARG1 (z75 / and
+                                      :op1 (z76 / i)
+                                      :op2 (z77 / community))))
+    :ARG0 (z78 / we)
+    :ARG1 (z79 / out))
 
 # ::id 78
 # ::annotator bart-amr
@@ -3521,19 +3306,16 @@
                                           :polarity -)))
               :time (z10 / always))
     :snt3 (z11 / and
-               :op1 (z12 / adultery
-                         :domain (z13 / whore))
-               :op2 (z14 / hypocrisy
+               :op1 (z12 / normal-02
+                         :polarity -
+                         :ARG1 (z13 / whore-01))
+               :op2 (z14 / hypocritical
                          :domain (z15 / person
-                                      :ARG0-of (z16 / perform-01)))
-               :mod (z17 / law
-                         :polarity -))
-    :snt4 (z18 / normal-02
-               :ARG1 (z19 / that)
-               :time (z20 / always))
-    :snt5 (z21 / comment-01
-               :ARG1 (z22 / effort-01))
-    :prep-in (z23 / context))
+                                      :ARG0-of (z16 / perform-01))))
+    :snt4 (z17 / normal-02
+               :ARG1 (z18 / that))
+    :snt5 (z19 / comment-01
+               :ARG1 (z20 / effort-01)))
 
 # ::id 91
 # ::annotator bart-amr
@@ -3631,23 +3413,11 @@
     :op4 (z8 / have-purpose-91
              :ARG2 (z9 / event)))
 
-# ::id 94
+# ::id 97
 # ::annotator bart-amr
-# ::snt It's ok as long as there is something to eat :loveliness:
-(z0 / okay-04
-    :ARG1 (z1 / it)
-    :condition (z2 / as-long-as
-                   :op1 (z3 / something
-                            :ARG1-of (z4 / eat-01)))
-    :example (z5 / and
-                 :op1 (z6 / lveliness)
-                 :op2 (z7 / loophole)
-                 :op3 (z8 / have-purpose-91
-                          :ARG2 (z9 / have-purpose-91
-                                    :ARG2 (z10 / humor)))
-                 :op4 (z11 / have-purpose-91
-                           :ARG2 (z12 / have-purpose-91
-                                      :ARG2 (z13 / comment-01)))))
+# ::snt There are top scorer in the Imperial Examination in all 360 walks of life! What effort and endeavor behind those top scorer in the Imperial Examination! This is humiliating the word " bean vermicelli"!
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
 
 # ::id 95
 # ::annotator bart-amr
@@ -3684,9 +3454,11 @@
     :snt5 (z22 / effort-01
                :ARG0 (z23 / you)
                :ARG1 (z24 / show-04))
-    :snt1 (z25 / resemble-01
-               :ARG1 (z26 / life)
-               :ARG2 (z27 / show-04)))
+    :snt6 (z25 / cause-01
+               :ARG1 (z27 / effort-01
+                          :ARG0 z23
+                          :ARG1 (z28 / perform-01
+                                     :ARG0 z23))))
 
 # ::id 96
 # ::annotator bart-amr
@@ -3720,49 +3492,8 @@
 # ::id 97
 # ::annotator bart-amr
 # ::snt There are top scorer in the Imperial Examination in all 360 walks of life! What effort and endeavor behind those top scorer in the Imperial Examination! This is humiliating the word " bean vermicelli"!
-(z0 / multi-sentence
-    :snt1 (z1 / person
-              :ARG0-of (z2 / score-01
-                           :ARG2 (z3 / thing
-                                     :ARG0-of (z4 / achieve-01))
-                           :degree (z5 / top)
-                           :subevent-of (z6 / examine-01
-                                            :mod (z7 / Imperial))
-                           :location (z8 / walk
-                                         :quant 360
-                                         :mod (z9 / all)
-                                         :mod (z10 / life))))
-    :snt2 (z11 / and
-               :op1 (z12 / effort-01
-                         :ARG1 (z13 / this))
-               :op2 (z14 / endeavor-01
-                         :ARG1 z13)
-               :degree (z15 / so)
-               :prep-behind (z16 / person
-                                 :ARG0-of (z17 / score-01
-                                               :ARG2 z3
-                                               :degree (z18 / top))
-                                 :location z6))
-    :snt3 (z19 / humiliate-01
-               :ARG0 (z20 / this)
-               :ARG1 (z21 / word
-                          :mod (z22 / vermicelli)))
-    :snt4 (z23 / fortunate-01
-               :polarity -
-               :ARG2 (z24 / exploit-01
-                          :ARG1 (z25 / field
-                                     :wiki "Imperial_College_London"
-                                     :name (z26 / name
-                                                :op1 "Imperial"))))
-    :snt5 (z27 / exploit-01
-               :ARG0 (z28 / this)
-               :ARG1 (z29 / word
-                          :mod (z30 / vermicelli)))
-    :snt1 (z31 / aid-01
-               :ARG2 (z32 / field
-                          :wiki "Imperial_College_London"
-                          :name (z33 / name
-                                     :op1 "Imperial"))))
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
 
 # ::id 98
 # ::annotator bart-amr

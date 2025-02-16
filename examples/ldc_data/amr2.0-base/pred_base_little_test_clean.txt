@@ -1,6 +1,3 @@
-# ::id 0
-# ::annotator bart-amr
-# ::snt Resolutely support the thread starter! I compose a poem in reply:
 (z0 / multi-sentence
     :snt1 (z1 / support-01
               :mode imperative
@@ -32,9 +29,6 @@
                           :ARG0 z7
                           :ARG3 (z24 / thread))))
 
-# ::id 1
-# ::annotator bart-amr
-# ::snt Pledge to fight to the death defending the Diaoyu Islands and the related islands
 (z0 / Pledge-01
     :ARG1 (z1 / fight-01
               :ARG2 (z2 / defend-01
@@ -57,118 +51,12 @@
     :ARG1-of (z14 / describe-01
                   :ARG0 (z15 / video)))
 
-# ::id 2
-# ::annotator bart-amr
-# ::snt Fleets bumping fishing boats. Little evil Japanese ghosts stirring up trouble and unrest. With hearts of thieves and arrogant form, they again show their wolfish appearance
-(z0 / multi-sentence
-    :snt1 (z1 / bump-01
-              :ARG0 (z2 / fleabag)
-              :ARG1 (z3 / boat
-                        :purpose (z4 / fish-01)))
-    :snt2 (z5 / stir-up-04
-              :ARG0 (z6 / ghost
-                        :mod (z7 / evil)
-                        :mod (z8 / country
-                                 :wiki "Japan"
-                                 :name (z9 / name
-                                           :op1 "Japan"))
-                        :mod (z10 / little))
-              :ARG1 (z11 / and
-                         :op1 (z12 / trouble-01)
-                         :op2 (z13 / unrest)))
-    :snt3 (z14 / show-01
-               :ARG0 (z15 / they)
-               :ARG1 (z16 / appearance
-                          :mod (z17 / wolfish)
-                          :poss z15
-                          :mod (z18 / apparent))
-               :mod (z19 / again)
-               :instrument (z20 / and
-                                :op1 (z21 / heart
-                                          :part-of (z22 / person
-                                                        :ARG0-of (z23 / steal-01)))
-                                :op2 (z24 / form
-                                          :mod (z25 / arrogant))))
-    :snt4 (z26 / show-01
-               :ARG0 (z27 / they)
-               :ARG1 (z28 / appear-01
-                          :ARG1 z27
-                          :mod (z29 / eye
-                                    :part-of (z30 / person
-                                                  :ARG0-of (z31 / steal-01))))
-               :mod (z32 / again)
-               :ARG0-of (z33 / cause-01
-                             :ARG1 (z34 / effort-01
-                                        :ARG0 z27
-                                        :ARG1 (z35 / oil))))
-    :snt5 (z36 / effort-01
-               :ARG0 (z37 / person)
-               :ARG1 (z38 / clean-up-02)
-               :ARG0-of (z39 / cause-01
-                             :ARG1 (z40 / trouble)))
-    :snt1 (z41 / bump-01
-               :ARG0 (z42 / fleabag)
-               :ARG1 (z43 / boat
-                          :purpose (z44 / fish-01))))
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
 
-# ::id 3
-# ::annotator bart-amr
-# ::snt Never go back to that time, our humiliating appearance when signing the treaties. China be strong, swords be sharp and knives be shining, let's bury the approaching enemies!
-(z0 / multi-sentence
-    :snt1 (z1 / go-back-19
-              :polarity -
-              :ARG1 (z2 / we)
-              :ARG2 (z3 / time
-                        :mod (z4 / that)
-                        :ARG1-of (z5 / appear-01
-                                     :time (z6 / sign-02
-                                               :ARG0 z2
-                                               :ARG1 (z7 / treaty))
-                                     :ARG0-of (z8 / humiliate-01
-                                                  :ARG1 z2)))
-              :time (z9 / ever))
-    :snt2 (z10 / and
-               :op1 (z11 / strong-02
-                         :ARG1 (z12 / country
-                                    :wiki "China"
-                                    :name (z13 / name
-                                               :op1 "China")))
-               :op2 (z14 / sharp-02
-                         :ARG1 (z15 / sword))
-               :op3 (z16 / shine-01
-                         :ARG1 (z17 / knife))
-               :op4 (z18 / bury-01
-                         :mode imperative
-                         :ARG0 (z19 / we)
-                         :ARG1 (z20 / enemy
-                                    :ARG1-of (z21 / approach-01))))
-    :snt3 (z22 / date-entity
-               :day 1
-               :month 2
-               :time-of (z23 / visit-01
-                             :ARG0 (z24 / we)
-                             :ARG1 (z25 / time
-                                        :mod (z26 / that))
-                             :ARG1-of (z27 / humiliate-01)))
-    :snt4 (z28 / and
-               :op1 (z29 / strong-02
-                         :ARG1 (z30 / country
-                                    :wiki "China"
-                                    :name (z31 / name
-                                               :op1 "China")))
-               :op2 (z32 / sharp-02
-                         :ARG1 (z33 / sword))
-               :op3 (z34 / shine-01
-                         :ARG1 (z35 / knife)))
-    :snt5 (z36 / bury-01
-               :mode imperative
-               :ARG0 z19
-               :ARG1 (z37 / enemy
-                          :ARG1-of (z38 / approach-01))))
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
 
-# ::id 4
-# ::annotator bart-amr
-# ::snt September 11th, 2010
 (z0 / date-entity
     :day 11
     :month 9
@@ -179,9 +67,6 @@
                  :op2 (z4 / event
                           :mod (z5 / eye))))
 
-# ::id 5
-# ::annotator bart-amr
-# ::snt I agree with the analysis of the thread starter, resolutely bump up. If war really comes, I would like to be Hua Mulan, to protect our home and defend our homeland, to spread the prestige of our China, to pledge to fight to the death defending our national dignity.
 (z0 / multi-sentence
     :snt1 (z1 / and
               :op1 (z2 / agree-01
@@ -236,85 +121,9 @@
                           :mode expressive)
                :ARG2 (z34 / i)))
 
-# ::id 6
-# ::annotator bart-amr
-# ::snt I very much wish I had been born in those passionate and upsurging times of Mao Zedong, the Long March, losing my head and shedding my blood, completely extinguishing all the enemies that wrong China, spreading our dragon prestige!
-(z0 / multi-sentence
-    :snt1 (z1 / wish-01
-              :ARG0 (z2 / i)
-              :ARG1 (z3 / bear-02
-                        :ARG1 z2
-                        :time (z4 / and
-                                  :op1 (z5 / time
-                                           :poss (z6 / person
-                                                     :wiki "Mao_Zedong"
-                                                     :name (z7 / name
-                                                               :op1 "Mao"
-                                                               :op2 "Zedong"))
-                                           :mod (z8 / passionate)
-                                           :ARG0-of (z9 / surge-01))
-                                  :op2 (z10 / date-entity
-                                            :month 3
-                                            :time-of (z11 / Long-02))
-                                  :op3 (z12 / lose-02
-                                            :ARG0 z2
-                                            :ARG1 (z13 / head
-                                                       :part-of z2))
-                                  :op4 (z14 / shed-01
-                                            :ARG0 z2
-                                            :ARG1 (z15 / blood
-                                                       :poss z2))
-                                  :op5 (z16 / extinguish-01
-                                            :ARG0 z2
-                                            :ARG1 (z17 / person
-                                                       :ARG0-of (z18 / have-rel-role-91
-                                                                     :ARG1 z2
-                                                                     :ARG2 (z19 / enemy
-                                                                                :ARG0-of (z20 / wrong-02
-                                                                                              :ARG1 (z21 / country
-                                                                                                         :wiki "China"
-                                                                                                         :name (z22 / name
-                                                                                                                    :op1 "China")))))
-                                                       :mod (z23 / all))
-                                            :ARG1-of (z24 / complete-02))
-                                  :op6 (z25 / spread-01
-                                            :ARG0 z2
-                                            :ARG1 (z26 / prestige
-                                                       :mod (z27 / dragon)
-                                                       :poss (z28 / we)))))
-              :mod (z29 / much
-                        :degree (z30 / very)))
-    :snt2 (z31 / and
-               :op1 (z32 / date-entity
-                         :year 1969
-                         :time-of (z33 / visit-01
-                                       :ARG0 (z34 / person
-                                                  :wiki "Mao_Zedong"
-                                                  :name (z35 / name
-                                                             :op1 "Mao"
-                                                             :op2 "Zedong"))
-                                       :ARG1 (z36 / province
-                                                  :wiki "Long_March"
-                                                  :name (z37 / name
-                                                             :op1 "Long"
-                                                             :op2 "March"))))
-               :op2 (z38 / date-entity
-                         :year 1969
-                         :time-of (z39 / surge-01
-                                       :ARG1 (z40 / prestige
-                                                  :mod (z41 / dragon)
-                                                  :poss z28))))
-    :snt3 (z42 / date-entity
-               :year 1969
-               :time-of (z43 / event
-                             :wiki "Long_March"
-                             :name (z44 / name
-                                        :op1 "Long"
-                                        :op2 "March"))))
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
 
-# ::id 7
-# ::annotator bart-amr
-# ::snt How Long are We Going to Tolerate Japan?
 (z0 / multi-sentence
     :snt1 (z1 / tolerate-01
               :ARG0 (z2 / we)
@@ -337,9 +146,6 @@
                           :ARG1 (z17 / speak-01)
                           :degree (z18 / more))))
 
-# ::id 8
-# ::annotator bart-amr
-# ::snt My fellow citizens:
 (z0 / citizen
     :mod (z1 / fellow)
     :poss (z2 / i)
@@ -350,92 +156,12 @@
                            :op2 (z7 / event
                                     :mod (z8 / pathetic)))))
 
-# ::id 9
-# ::annotator bart-amr
-# ::snt Hello, everyone! We all know the "September 18th" Incident, but now Japan again has a premeditated plan for another "September 18th" on the sea, another "Lugou Bridge on the sea".
-(z0 / multi-sentence
-    :snt1 (z1 / say-01
-              :ARG1 (z2 / hello)
-              :ARG2 (z3 / everyone))
-    :snt2 (z4 / contrast-01
-              :ARG1 (z5 / know-01
-                        :ARG0 (z6 / we
-                                  :mod (z7 / all))
-                        :ARG1 (z8 / incident
-                                  :wiki "September_18_attacks"
-                                  :name (z9 / name
-                                            :op1 "September"
-                                            :op2 "18")))
-              :ARG2 (z10 / plan-01
-                         :ARG0 (z11 / country
-                                    :wiki "Japan"
-                                    :name (z12 / name
-                                               :op1 "Japan"))
-                         :ARG1 (z13 / and
-                                    :op1 (z14 / date-entity
-                                              :month 9
-                                              :day 18
-                                              :mod (z15 / another))
-                                    :op2 (z16 / bridge
-                                              :wiki "Lugou_Bridge"
-                                              :name (z17 / name
-                                                         :op1 "Lugou"
-                                                         :op2 "Bridge")
-                                              :mod (z18 / another)
-                                              :location (z19 / sea)))
-                         :ARG1-of (z20 / precient-00))
-              :time (z21 / now)
-              :mod (z22 / again))
-    :snt3 (z23 / loophole
-               :ARG1-of (z24 / cause-01
-                             :ARG0 (z25 / event))
-               :domain (z26 / event
-                            :wiki "September_18_attacks"
-                            :name (z27 / name
-                                       :op1 "September"
-                                       :op2 "18")))
-    :snt4 (z28 / say-01
-               :ARG1 (z29 / kill-01
-                          :ARG1 (z30 / everyone))))
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
 
-# ::id 10
-# ::annotator bart-amr
-# ::snt Japan surprisingly defied the strong condemnation of the whole world, openly invaded our country's sacred territory, "the Diaoyu Islands".
-(z0 / and
-    :op1 (z1 / defy-01
-             :ARG0 (z2 / country
-                       :wiki "Japan"
-                       :name (z3 / name
-                                 :op1 "Japan"))
-             :ARG1 (z4 / condemn-01
-                       :ARG0 (z5 / world
-                                 :mod (z6 / whole))
-                       :ARG1 z2
-                       :ARG1-of (z7 / strong-02))
-             :ARG0-of (z8 / surprise-01))
-    :op2 (z9 / invade-01
-             :ARG0 z2
-             :ARG1 (z10 / territory
-                        :wiki "Senkaku_Islands"
-                        :name (z11 / name
-                                   :op1 "Diaoyu"
-                                   :op2 "Islands")
-                        :mod (z12 / sacred)
-                        :poss (z13 / country
-                                   :poss (z14 / we)))
-             :ARG1-of (z15 / open-04))
-    :op3 (z16 / invade-01
-              :ARG0 z2
-              :ARG1 z10
-              :ARG1-of (z17 / open-04))
-    :op4 (z18 / describe-01
-              :ARG0 (z19 / publication)
-              :ARG1 z1
-              :ARG2 (z20 / speak-01)))
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
 
-# ::id 11
-# ::annotator bart-amr
-# ::snt As we all know, the "Diaoyu Islands" have always belonged to China; due to historical reasons, what originally belongs us has become controversial.
 (z0 / multi-sentence
     :snt1 (z1 / belong-01
               :ARG0 (z2 / island
@@ -482,9 +208,6 @@
                           :ARG2 (z33 / amr-unknown)
                           :mod (z34 / original))))
 
-# ::id 12
-# ::annotator bart-amr
-# ::snt My fellow citizens, ours is ours, what need is there to negotiate! Japan thus goes even further - wants to create a fact of occupation. Can we allow this? No - absolutely not!
 (z0 / multi-sentence
     :snt1 (z1 / citizen
               :mod (z2 / fellow)
@@ -515,26 +238,34 @@
                           :ARG0 (z22 / we)
                           :ARG1 (z23 / this)))
     :snt5 (z24 / no)
-    :snt1 (z25 / absolute
+    :snt6 (z25 / absolute
                :polarity -)
-    :snt1 (z26 / cause-01
-               :ARG0 (z27 / amr-unknown)
-               :ARG1 (z28 / need-01
-                          :ARG1 (z29 / negotiate-01
-                                     :ARG2 (z30 / we))))
-    :snt1 (z31 / cause-01
-               :ARG0 (z32 / go-01
-                          :ARG1 (z33 / country
+    :snt7 (z26 / cause-01
+               :ARG1 (z27 / need-01
+                          :ARG1 (z28 / negotiate-01
+                                     :ARG0 z22)
+                          :location z8))
+    :snt8 (z29 / cause-01
+               :ARG1 (z30 / go-01
+                          :ARG1 (z31 / country
                                      :wiki "Japan"
-                                     :name (z34 / name
+                                     :name (z32 / name
                                                 :op1 "Japan"))
-                          :ARG2 (z35 / further
-                                     :degree (z36 / more)
-                                     :mod (z37 / even)))))
+                          :ARG2 (z33 / further
+                                     :mod (z34 / even))))
+    :snt9 (z35 / allow-01
+               :polarity -
+               :ARG0 z22
+               :ARG1 z23)
+    :snt10 (z36 / have-polarity-91
+                :ARG2 -
+                :ARG1-of (z37 / absolute))
+    :snt11 (z38 / cause-01
+                :ARG1 (z39 / sad-02
+                           :ARG1 (z40 / effort-01
+                                      :ARG1 (z41 / negotiate-01
+                                                 :ARG0 (z42 / we))))))
 
-# ::id 13
-# ::annotator bart-amr
-# ::snt My fellow citizens, Japan's militarism has brought the people of Asia grave disasters.
 (z0 / multi-sentence
     :snt1 (z1 / bring-01
               :ARG0 (z2 / militarism
@@ -561,9 +292,6 @@
                :domain (z18 / citizen
                             :poss z12)))
 
-# ::id 14
-# ::annotator bart-amr
-# ::snt Especially China suffered the ravages of Japan for as long as several decades.
 (z0 / multi-sentence
     :snt1 (z1 / suffer-01
               :ARG0 (z2 / country
@@ -601,9 +329,6 @@
                :ARG1-of (z23 / cause-01
                              :ARG0 (z24 / event))))
 
-# ::id 15
-# ::annotator bart-amr
-# ::snt In the Northeast, Japanese Unit 731 cruelly conducted human body experiments on living people of China, Korea and other countries, the method of which were extremely brutal; the Nanjing Massacre added a layer of blood to the ancient capital which will never fade away; the big bloody battles at Hengyang and Changsha laid bare the bones of the dead over a thousand kilometers and killed off everything...
 (z0 / multi-sentence
     :snt1 (z1 / experiment-01
               :ARG0 (z2 / unit
@@ -731,17 +456,30 @@
                                                              :ARG1-of (z90 / die-01)))
                                     :ARG2 (z91 / bare-02
                                                :ARG1 z66)))
-               :snt2 (z92 / and
-                          :op1 (z93 / kill-01
-                                    :ARG0 (z94 / person)
-                                    :ARG1 (z95 / person))
-                          :op2 (z96 / kill-01
-                                    :ARG0 z94
-                                    :ARG1 z97))))
+               :snt6 (z92 / lay-01
+                          :ARG0 (z93 / battle-01
+                                     :location (z94 / city
+                                                    :wiki "Tianjin"
+                                                    :name (z95 / name
+                                                               :op1 "Jinjin"))
+                                     :ARG1 (z96 / bone
+                                                :part-of (z97 / person
+                                                              :ARG1-of (z98 / die-01))
+                                                :ARG2 (z99 / over
+                                                           :op1 (z100 / distance-quantity
+                                                                      :quant 1000
+                                                                      :unit (z101 / kilometer))))))
+               :snt7 (z102 / be-located-at-91
+                           :ARG1 (z103 / event
+                                       :wiki "Tiananmen_Square"
+                                       :name (z104 / name
+                                                   :op1 "Northeast"))
+                           :ARG2 (z105 / person
+                                       :ARG0-of (z106 / have-rel-role-91
+                                                      :ARG1 (z107 / person)
+                                                      :ARG2 (z108 / capital)))))
+    :mod (z110 / expensive))
 
-# ::id 16
-# ::annotator bart-amr
-# ::snt My fellow citizens, of the heinous crimes committed by Japan in China, there are too many instances to cite, difficult to record without exhausting all bamboo strips.
 (z0 / multi-sentence
     :snt1 (z1 / instance
               :quant (z2 / many
@@ -783,9 +521,6 @@
                                         :name (z28 / name
                                                    :op1 "China")))))
 
-# ::id 17
-# ::annotator bart-amr
-# ::snt It's just as if those ten million deceased souls who lost their lives are wandering over the Pacific Ocean, finding it difficult to rest in peace.
 (z0 / resemble-01
     :ARG2 (z1 / and
               :op1 (z2 / wander-01
@@ -808,9 +543,6 @@
                                    :poss z3)))
     :mod (z14 / just))
 
-# ::id 18
-# ::annotator bart-amr
-# ::snt All the people who experienced that era must still remember it vividly; even our younger generations also will cry with tears streaming down our cheeks, and our blood boils with indignation, whenever we turn to this page of history and read!
 (z0 / multi-sentence
     :snt1 (z1 / obligate-01
               :ARG2 (z2 / remember-01
@@ -869,9 +601,6 @@
                                     :poss (z48 / we))
                          :manner (z49 / indignation))))
 
-# ::id 19
-# ::annotator bart-amr
-# ::snt Now Japan actually wants to reverse the verdict on the history of its aggression - fellow citizens, fellow Chinese in Asia, wake up!
 (z0 / multi-sentence
     :snt1 (z1 / want-01
               :ARG0 (z2 / country
@@ -907,9 +636,6 @@
                           :mod (z20 / fellow)
                           :location z12)))
 
-# ::id 20
-# ::annotator bart-amr
-# ::snt Although it is painful to look back at these hundred years of shame, we must go face it; although historical issues have not been resolved, let us create and choose history!
 (z0 / multi-sentence
     :snt1 (z1 / obligate-01
               :ARG2 (z2 / go-03
@@ -961,9 +687,6 @@
                           :polarity -
                           :ARG1 z32)))
 
-# ::id 21
-# ::annotator bart-amr
-# ::snt Since there is responsibility, we are not afraid. The territory is small, but it is related to the matter of dignity; no matter how the winds and clouds changes, the interests of the country and national unity are the guarantee of honor; even though scarred with wounds, we can not let our native lands be separated!
 (z0 / multi-sentence
     :snt1 (z1 / fear-01
               :polarity -
@@ -1007,11 +730,20 @@
                           :ARG1 (z35 / territory)
                           :ARG2 (z36 / matter
                                      :topic (z37 / dignity))))
-    :polarity -)
+    :snt6 (z38 / have-concession-91
+               :ARG1 (z39 / possible-01
+                          :polarity -
+                          :ARG1 (z40 / let-01
+                                     :ARG0 z26
+                                     :ARG1 (z41 / separate-01
+                                                :ARG0 z26
+                                                :ARG1 (z42 / land
+                                                           :poss z26
+                                                           :mod (z43 / native)))))
+               :ARG2 (z44 / scar-01
+                          :ARG1 z26
+                          :ARG2 (z45 / wound))))
 
-# ::id 22
-# ::annotator bart-amr
-# ::snt My fellow citizens, for the Chinese nation, the advent of the twenty-first century means a time when we are beset with difficulties inside while being pressed from outside, and we will face many challenges.
 (z0 / multi-sentence
     :snt1 (z1 / say-01
               :ARG0 (z2 / citizen
@@ -1056,9 +788,6 @@
                             :ARG1 (z34 / challenge
                                        :quant (z35 / many)))))
 
-# ::id 23
-# ::annotator bart-amr
-# ::snt The Taiwan issue, the Tibet issue, the South China Sea issue, the surrounding environment, as well as the foreign forces which are aggressive to China - which way should we go?
 (z0 / recommend-01
     :mode interrogative
     :ARG1 (z1 / go-01
@@ -1094,9 +823,6 @@
                                                                      :name (z21 / name
                                                                                 :op1 "China")))))))
 
-# ::id 24
-# ::annotator bart-amr
-# ::snt What to do, fellow citizens? Please take a look at the map of the world, that crescent-shaped encirclement is suppressing our breathing, strangling our development, and coveting our national territory.
 (z0 / multi-sentence
     :snt1 (z1 / citizen
               :mod (z2 / fellow))
@@ -1151,9 +877,6 @@
                                                                         :poss z15
                                                                         :mod (z37 / nation))))))))
 
-# ::id 25
-# ::annotator bart-amr
-# ::snt We do not want to make enemies, but are never afraid of enemies; we do not want war, but are never afraid of war.
 (z0 / multi-sentence
     :snt1 (z1 / contrast-01
               :ARG1 (z2 / want-01
@@ -1187,9 +910,6 @@
     :snt1 (z20 / have-purpose-91
                :ARG2 (z21 / war-01)))
 
-# ::id 26
-# ::annotator bart-amr
-# ::snt We must urgently arrange arms, strengthen all military forces on land, on sea, and in the air.
 (z0 / multi-sentence
     :snt1 (z1 / obligate-01
               :ARG2 (z2 / and
@@ -1226,9 +946,6 @@
                :ARG2 (z30 / aircraft))
     :snt5 (z31 / comment-01))
 
-# ::id 27
-# ::annotator bart-amr
-# ::snt Over thousands of years, the Chinese nation has flourished several times, but before it has never had ambition to expand its territory outward.
 (z0 / contrast-01
     :ARG1 (z1 / flourish-01
               :ARG1 (z2 / nation
@@ -1253,9 +970,6 @@
               :time (z14 / ever)
               :time (z15 / before)))
 
-# ::id 28
-# ::annotator bart-amr
-# ::snt Not imposing on others what we don't want ourselves, what we follow is a foreign security strategic philosophy which applies benevolence and virtue.
 (z0 / multi-sentence
     :snt1 (z1 / impose-01
               :polarity -
@@ -1282,12 +996,16 @@
                :ARG1 (z19 / serious-01))
     :snt5 (z20 / sense-02
                :ARG1 (z21 / thing))
-    :polarity -
-    :ARG0 z2)
+    :snt6 (z22 / have-purpose-91
+               :ARG2 (z23 / offend-01))
+    :snt7 (z24 / have-purpose-91
+               :ARG2 (z25 / thing
+                          :ARG1-of (z26 / want-01
+                                        :polarity -
+                                        :ARG0 z2))
+               :snt8 (z27 / person
+                          :mod (z28 / other))))
 
-# ::id 29
-# ::annotator bart-amr
-# ::snt The tolerance and liberalness of a country are like those of an individual - we avoid hurting others, but must insist on not being hurt ourselves.
 (z0 / multi-sentence
     :snt1 (z1 / resemble-01
               :ARG1 (z2 / and
@@ -1325,9 +1043,6 @@
                                     :ARG1 z24))
                :ARG2 (z26 / individual)))
 
-# ::id 30
-# ::annotator bart-amr
-# ::snt Tolerance is certainly not fear, and sincerity does not have to be cowardice.
 (z0 / multi-sentence
     :snt1 (z1 / and
               :op1 (z2 / fear-01
@@ -1355,9 +1070,6 @@
                          :ARG1 (z18 / fear-01
                                     :polarity -))))
 
-# ::id 31
-# ::annotator bart-amr
-# ::snt China exempting Japan from war reparations for World War II was in service of peace, benevolent peace.
 (z0 / multi-sentence
     :snt1 (z1 / serve-01
               :ARG0 (z2 / exempt-01
@@ -1401,9 +1113,6 @@
                                                 :op2 "War"
                                                 :op3 "II")))))
 
-# ::id 32
-# ::annotator bart-amr
-# ::snt My fellow citizens, the People's Heroes Monument is a condensed history of the Chinese nation striving for continuous self-improvement
 (z0 / history
     :topic (z1 / strive-01
                :ARG0 (z2 / nation
@@ -1435,9 +1144,6 @@
                                                     :ARG1 z2
                                                     :ARG1-of z6)))))
 
-# ::id 33
-# ::annotator bart-amr
-# ::snt The solemn and magnificent posture represents a sacred expectation for peace.
 (z0 / multi-sentence
     :snt1 (z1 / represent-01
               :ARG0 (z2 / posture
@@ -1459,9 +1165,6 @@
                :ARG1 (z18 / serious-01))
     :snt5 (z19 / demagogue-01))
 
-# ::id 34
-# ::annotator bart-amr
-# ::snt The thought-strings of my memory have been agitated from time to time - many heroic, stirring, and tragic scenes of shining spears and armored horses spring up in my mind.
 (z0 / multi-sentence
     :snt1 (z1 / agitated-02
               :ARG1 (z2 / string
@@ -1499,9 +1202,6 @@
                           :ARG0 z4
                           :ARG3 (z31 / event))))
 
-# ::id 35
-# ::annotator bart-amr
-# ::snt My thoughts go through those yellowing pages of history, as if I saw Emperor Kangxi, the famous ruler of a generation, contemplating alone about how to achieve unification of the territory in his audience hall, hundreds of years ago; also as if I saw Abraham Lincoln, former U.S. President, wandering alone in the dark of a great hall, thinking about the integrity of the Union.
 (z0 / multi-sentence
     :snt1 (z1 / go-01
               :ARG1 (z2 / thing
@@ -1596,9 +1296,6 @@
                :ARG2 (z66 / page
                           :mod (z67 / yellow))))
 
-# ::id 36
-# ::annotator bart-amr
-# ::snt "Although it is peaceful throughout the world, it is certainly dangerous to forget war!" My fellow citizens, we want development and peace, but we must never exercise forbearance blindly. The "Boxer Protocol " of national betrayal and humiliation has aggravated China's poverty and backwardness in modern time - falling behind will lead to being bullied.
 (z0 / multi-sentence
     :snt1 (z1 / have-concession-91
               :ARG1 (z2 / endanger-01
@@ -1681,59 +1378,9 @@
     :snt5 (z59 / peace
                :location (z60 / throughout
                               :op1 (z61 / world)))
-    :snt1 (z62 / citizen
-               :mod (z63 / fellow)
-               :poss (z64 / i))
-    :snt2 (z65 / contrast-01
-               :ARG1 (z66 / want-01
-                          :ARG0 (z67 / we)
-                          :ARG1 (z68 / and
-                                     :op1 (z69 / develop-02)
-                                     :op2 (z70 / peace)))
-               :ARG2 (z71 / obligate-01
-                          :ARG1 z67
-                          :ARG2 (z72 / forbear-01
-                                     :polarity -
-                                     :ARG0 z67)
-                          :time (z73 / ever)))
-    :snt3 (z74 / aggravate-01
-               :ARG0 (z75 / protocol
-                          :wiki -
-                          :name (z76 / name
-                                     :op1 "Boxer"
-                                     :op2 "protocol")
-                          :topic (z77 / and
-                                      :op1 (z78 / betray-01
-                                                :ARG0 (z79 / nation))
-                                      :op2 (z80 / humiliate-01
-                                                :ARG1 z10))
-                          :time (z81 / time
-                                     :ARG1-of (z82 / modern-02))))
-    :snt4 (z83 / aggravate-01
-               :ARG0 (z84 / fall-04
-                          :ARG1 (z85 / country
-                                     :wiki "China"
-                                     :name (z86 / name
-                                                :op1 "China"))
-                          :ARG2 (z87 / behind
-                                     :op1 (z88 / and
-                                               :op1 (z89 / poor)
-                                               :op2 (z90 / backwardness)))
-                          :ARG1 (z91 / country
-                                     :wiki "United_States"
-                                     :name (z92 / name
-                                                :op1 "China"))))
-    :snt5 (z93 / lead-03
-               :ARG0 (z94 / fall-04
-                          :ARG1 z85
-                          :ARG2 (z95 / behind
-                                     :op1 (z96 / person)))
-               :ARG2 (z97 / bully-01
-                          :ARG1 z98)))
+    :mod (z63 / fellow)
+    :poss (z64 / i))
 
-# ::id 37
-# ::annotator bart-amr
-# ::snt Without strength, where does peace come from!
 (z0 / multi-sentence
     :snt1 (z1 / come-01
               :ARG1 (z2 / peace)
@@ -1761,9 +1408,6 @@
                           :ARG0-of (z20 / have-rel-role-91
                                         :ARG2 (z21 / significant-other)))))
 
-# ::id 38
-# ::annotator bart-amr
-# ::snt We must focus on national defense education, build up a Great Wall in the hearts of 1.3 billion people, and must establish the full range of a national defense system having the ability to both attack and defend;
 (z0 / and
     :op1 (z1 / obligate-01
              :ARG2 (z2 / focus-01
@@ -1808,9 +1452,6 @@
                                                              :op1 (z31 / attack-01)
                                                              :op2 (z32 / defend-01)))))))
 
-# ::id 39
-# ::annotator bart-amr
-# ::snt The best defense is to attack - we should strengthen forces which can engage in ultra-long-range attack, improve combat capability throughout all of aerospace, of great depth, and over great distances. On the premise of avoiding influence on national economic development, increase investment and construction of the defense industry, accelerate modernization and internationalization of military equipment, and establish a high-quality, high-tech elite division.
 (z0 / multi-sentence
     :snt1 (z1 / defend-01
               :ARG1-of (z2 / good-02
@@ -1884,9 +1525,6 @@
                                                          :mod (z58 / quality
                                                                    :ARG1-of (z59 / high-02))))))))
 
-# ::id 40
-# ::annotator bart-amr
-# ::snt The battle horn is about to sound, the people are already fully equipped and ready to go.
 (z0 / multi-sentence
     :snt1 (z1 / and
               :op1 (z2 / sound-02
@@ -1916,9 +1554,6 @@
                                                   :ARG2 (z21 / go-02
                                                              :ARG0 z16))))))
 
-# ::id 41
-# ::annotator bart-amr
-# ::snt Without the people's support we will accomplish nothing; with the support of the people, we will be all-powerful.
 (z0 / multi-sentence
     :snt1 (z1 / accomplish-01
               :ARG0 (z2 / we)
@@ -1951,9 +1586,6 @@
                :ARG1 (z18 / thing)
                :mod (z19 / just)))
 
-# ::id 42
-# ::annotator bart-amr
-# ::snt My fellow citizens, it is time for us to say "no" to others. Therefore, we must achieve:
 (z0 / multi-sentence
     :snt1 (z1 / be-temporally-at-91
               :ARG1 (z2 / time
@@ -1980,9 +1612,6 @@
                                      :ARG1 (z21 / law
                                                 :mod (z22 / sex))))))
 
-# ::id 43
-# ::annotator bart-amr
-# ::snt 1. Establish guaranteed funds, improve working environment and mechanisms, recruit back to China the hundreds of thousands of IT professionals who have emigrated to and linger in the United States and around the world.
 (z0 / and
     :li 1
     :op1 (z1 / establish-01
@@ -2033,11 +1662,15 @@
                                                                        :op1 "United"
                                                                        :op2 "States"))
                                                   :op2 (z36 / around
-                                                            :op1 (z37 / world)))))))
+                                                            :op1 (z37 / world))))))
+    :ARG0 (z39 / event)
+    :ARG1 (z40 / cause-01
+               :ARG1 (z42 / despair-01
+                          :ARG0 (z43 / person)
+                          :ARG1 (z44 / and
+                                     :op1 (z45 / home)
+                                     :op2 (z46 / abroad)))))
 
-# ::id 44
-# ::annotator bart-amr
-# ::snt 2. Create a few nuclear-powered aircraft carrier battle groups.
 (z0 / create-01
     :li 2
     :ARG1 (z1 / group
@@ -2049,9 +1682,6 @@
                                            :ARG0 (z7 / nucleus))
                               :quant (z8 / few))))
 
-# ::id 45
-# ::annotator bart-amr
-# ::snt 3. Manufacture 5000 advanced combat aircraft of various kinds.
 (z0 / multi-sentence
     :li 3
     :snt1 (z1 / manufacture-01
@@ -2076,9 +1706,6 @@
                :ARG0-of (z18 / combat-01)
                :ARG1-of (z19 / major-02)))
 
-# ::id 46
-# ::annotator bart-amr
-# ::snt 4. Accelerate the research and deployment of high-speed intercontinental ballistic missiles which can break missile defense systems and whose range is more than 10,000 nautical miles.
 (z0 / accelerate-01
     :li 4
     :ARG1 (z1 / and
@@ -2102,9 +1729,6 @@
               :op2 (z18 / deploy-01
                         :ARG1 z3)))
 
-# ::id 47
-# ::annotator bart-amr
-# ::snt 5. Resume nuclear experiments, and establish military forces in space.
 (z0 / and
     :li 5
     :op1 (z1 / Resume-01
@@ -2127,9 +1751,6 @@
     :op7 (z16 / occasion-02
               :ARG1 (z17 / comment-01)))
 
-# ::id 48
-# ::annotator bart-amr
-# ::snt 6. Retain 1000 nuclear bombs equivalent to ten million tons of TNT, and when necessary, install nuclear warheads on all short- and middle-range missiles.
 (z0 / and
     :li 6
     :op1 (z1 / retire-01
@@ -2163,9 +1784,6 @@
               :time (z24 / need-01
                          :ARG1 z19)))
 
-# ::id 49
-# ::annotator bart-amr
-# ::snt 7. Retain 30 strategic nuclear submarines with the ability to inflict three devastating nuclear strikes against enemies.
 (z0 / retire-01
     :li 7
     :ARG0 (z1 / you)
@@ -2183,9 +1801,6 @@
                                                :ARG0-of (z9 / devastate-01))
                                      :ARG2 z2))))
 
-# ::id 50
-# ::annotator bart-amr
-# ::snt 8. Abandon the commitment to not use nuclear weapons first.
 (z0 / abandon-01
     :li 8
     :ARG1 (z1 / commit-01
@@ -2197,9 +1812,6 @@
                                   :mod (z4 / nucleus))
                         :time (z5 / first))))
 
-# ::id 51
-# ::annotator bart-amr
-# ::snt 9. Retain the right of pre-emptive strike when national security is threatened.
 (z0 / retire-01
     :li 9
     :ARG0 (z1 / you)
@@ -2213,9 +1825,6 @@
                         :ARG1 (z6 / security
                                   :mod (z7 / nation)))))
 
-# ::id 52
-# ::annotator bart-amr
-# ::snt My fellow citizens, only if we have self-confidence and self-improvement, can we strive to be strong. Qin Shi Huang unified China. Zheng Chenggong recovered Taiwan. In our responsibilities we must carry on the farsightedness, insight, and strong will of our predecessors.
 (z0 / multi-sentence
     :snt1 (z1 / citizen
               :mod (z2 / fellow)
@@ -2269,42 +1878,30 @@
                                                           :poss z24)))
                           :prep-in (z32 / responsible-03
                                         :ARG0 z24)))
-    :snt1 (z33 / say-01
-               :ARG1 (z34 / possible-01
-                          :ARG1 (z35 / strive-01
+    :snt6 (z33 / cause-01
+               :ARG0 (z34 / duty
+                          :poss z24)
+               :ARG1 (z35 / obligate-01
+                          :ARG1 z24
+                          :ARG2 (z36 / carry-on-02
                                      :ARG0 z24
-                                     :ARG1 (z36 / strong-02
-                                                :ARG1 (z37 / and
-                                                           :op1 (z38 / courage
-                                                                     :poss z24)
-                                                           :op2 (z39 / insight
-                                                                     :poss z24)
-                                                           :op3 (z40 / will
-                                                                     :poss z24
-                                                                     :ARG1-of (z41 / strong-02)))))
-                          :ARG2 (z42 / citizen
-                                     :mod (z43 / fellow)
-                                     :poss z3)))
-    :snt2 (z44 / be-temporally-at-91
-               :ARG1 (z45 / effort-01
-                          :ARG0 z24)
-               :ARG2 (z46 / date-entity
-                          :day 1
-                          :month 2))
-    :snt3 (z47 / be-temporally-at-91
-               :ARG1 (z48 / effort-01
-                          :ARG0 (z49 / we)
-                          :ARG1 (z50 / strong-02
-                                     :ARG1 (z51 / and
-                                                :op1 (z52 / confidence
-                                                          :poss z49)
-                                                :op2 (z53 / improve-01
-                                                          :ARG1 z53))))
-               :ARG2 (z54 / only)))
+                                     :ARG1 (z37 / and
+                                                :op1 (z38 / farsight-00
+                                                          :ARG1 (z39 / we))
+                                                :op2 (z40 / insight-01
+                                                          :ARG0 z39)
+                                                :op3 (z41 / will
+                                                          :ARG1-of (z42 / strong-02)
+                                                          :poss (z43 / predecessor
+                                                                     :poss z24))))))
+    :snt7 (z44 / speak-01
+               :ARG0 (z45 / we)
+               :ARG1 (z46 / and
+                          :op1 (z47 / confidence
+                                    :mod (z48 / self))
+                          :op2 (z49 / improve-01
+                                    :ARG1 z48))))
 
-# ::id 53
-# ::annotator bart-amr
-# ::snt Now, that piece of land trembling far away from the embrace of the motherland is shaking, moaning, and calling. Fellow citizens, let us carry forward the unfulfilled wishes of previous generals, moving forward courageously!
 (z0 / multi-sentence
     :snt1 (z1 / and
               :op1 (z2 / shake-01
@@ -2336,7 +1933,8 @@
                                                                             :time (z25 / previous))))
                                      :ARG1-of (z26 / fill-01
                                                    :polarity -)
-                                     :ARG1-of (z27 / intend-01))
+                                     :ARG1-of (z27 / ful-03
+                                                   :polarity -))
                           :direction (z28 / forward))
                :manner (z29 / courageous))
     :snt3 (z30 / law
@@ -2352,11 +1950,8 @@
     :snt5 (z36 / law
                :polarity -
                :ARG0-of (z37 / cause-01
-                             :ARG1 (z38 / fear-01))))
+                             :ARG1 (z38 / shock-01))))
 
-# ::id 54
-# ::annotator bart-amr
-# ::snt When reading over history, the heaviness and anger in my heart simmer into concern for the nation. Although I was born to cloth gown and am one of the common people, for the prosperity of the motherland, for the motherland being splendid once again, I am willing to voluntarily serve our country, and I will have no regrets even if I die! My sincere patriotic heart is adequate to show to heaven!
 (z0 / multi-sentence
     :snt1 (z1 / boil-01
               :ARG1 (z2 / and
@@ -2402,9 +1997,6 @@
                          :mod (z32 / again
                                    :mod (z33 / once)))))
 
-# ::id 55
-# ::annotator bart-amr
-# ::snt Here, I've composed a poem in classical ci form, to voice the aspirations of my heart.
 (z0 / multi-sentence
     :snt1 (z1 / compose-02
               :ARG0 (z2 / i)
@@ -2430,9 +2022,6 @@
                                      :mod (z19 / ci))
                           :location (z20 / here))))
 
-# ::id 56
-# ::annotator bart-amr
-# ::snt Paint the deep red lips
 (z0 / paint-02
     :mode imperative
     :ARG0 (z1 / you)
@@ -2449,9 +2038,6 @@
              :ARG0 z1)
     :mod (z10 / other))
 
-# ::id 57
-# ::annotator bart-amr
-# ::snt Protect the Diaoyu Islands
 (z0 / protect-01
     :ARG1 (z1 / island
               :wiki "Senkaku_Islands"
@@ -2469,9 +2055,6 @@
                            :ARG2 (z10 / inform-01
                                       :ARG1 (z11 / you)))))
 
-# ::id 58
-# ::annotator bart-amr
-# ::snt Bitterly lost our Ryukyu Islands
 (z0 / lose-02
     :ARG0 (z1 / we)
     :ARG1 (z2 / island
@@ -2498,9 +2081,6 @@
     :ARG0-of (z14 / cause-01
                   :ARG1 (z15 / sad-02)))
 
-# ::id 59
-# ::annotator bart-amr
-# ::snt How can we allow the Diaoyu Islands to fall to other countries
 (z0 / possible-01
     :ARG1 (z1 / allow-01
               :ARG0 (z2 / we)
@@ -2526,9 +2106,6 @@
                                   :ARG0 (z17 / event)))
     :mod (z18 / also))
 
-# ::id 60
-# ::annotator bart-amr
-# ::snt One hundred years of vicissitudes
 (z0 / life
     :quant 100
     :unit (z1 / year)
@@ -2544,9 +2121,6 @@
     :ARG1-of (z11 / cause-01
                   :ARG0 (z12 / event)))
 
-# ::id 61
-# ::annotator bart-amr
-# ::snt Smoke and clouds chase the flying waves
 (z0 / chase-01
     :ARG0 (z1 / and
               :op1 (z2 / smoke)
@@ -2554,19 +2128,14 @@
     :ARG1 (z4 / wave
               :ARG0-of (z5 / fly-01)
               :ARG0-of (z6 / thing
-                           :subevent-01 (z7 / effort-01
-                                            :ARG1 (z8 / and
-                                                      :op1 (z9 / peak-01)
-                                                      :op2 (z10 / effort-01
-                                                                :ARG1 (z11 / attract-01))))))
-    :ARG0-of (z12 / cause-01
-                  :ARG1 (z13 / effort-01
-                             :ARG1 (z14 / aircraft
-                                        :ARG0-of (z15 / fly-01)))))
+                           :ARG2 (z7 / event
+                                     :ARG0-of (z8 / cause-01
+                                                  :ARG1 (z9 / distress-01)))))
+    :ARG0-of (z10 / cause-01
+                  :ARG1 (z11 / effort-01
+                             :ARG0-of (z12 / cause-01
+                                           :ARG1 (z13 / effort-01)))))
 
-# ::id 62
-# ::annotator bart-amr
-# ::snt Youngest brother is still a tender youth
 (z0 / youth
     :ARG1-of (z1 / tender-02)
     :domain (z2 / person
@@ -2588,9 +2157,6 @@
                   :ARG1 (z17 / despair-01
                              :ARG0 z2)))
 
-# ::id 63
-# ::annotator bart-amr
-# ::snt Wandering in all directions, bearing a seal
 (z0 / wander-01
     :ARG1 (z1 / direction
               :mod (z2 / all))
@@ -2606,9 +2172,6 @@
                             :ARG0 z1
                             :ARG1 (z11 / event))))
 
-# ::id 64
-# ::annotator bart-amr
-# ::snt Looking over to the flag
 (z0 / look-01
     :ARG1 (z1 / flag)
     :mod (z2 / official)
@@ -2619,9 +2182,6 @@
                            :ARG1 (z7 / see-01
                                      :ARG1 z1))))
 
-# ::id 65
-# ::annotator bart-amr
-# ::snt Brandish our weapons and cross to the east
 (z0 / and
     :op1 (z1 / brand-01
              :mode imperative
@@ -2650,9 +2210,6 @@
                                                    :poss z4)
                                         :ARG2 z9))))
 
-# ::id 66
-# ::annotator bart-amr
-# ::snt Let the horses drink from the Pacific Ocean
 (z0 / let-01
     :mode imperative
     :ARG0 (z1 / you)
@@ -2670,9 +2227,6 @@
                            :ARG1 (z10 / despair-01
                                       :ARG0 z3))))
 
-# ::id 67
-# ::annotator bart-amr
-# ::snt June, 26th, 2002
 (z0 / date-entity
     :day 26
     :month 6
@@ -2687,9 +2241,6 @@
               :month 6
               :year 2002))
 
-# ::id 68
-# ::annotator bart-amr
-# ::snt Other articles: "A book for Taiwan compatriots-I have a dream", "The necessity for building memorials museums or temples for Chinese national heroes", "How long will we tolerate it", "China is expecting the Olympics, but would never beg for the Olympics", "If we forget the hardship of history, there will be more history of hardship", "I am Chinese", "There is only one Chinese nation, there is only one Chinese culture", "With the over-development of sports, the state may decline", "'Wealthy country, strong people' or 'wealthy officials, poor people"?", "Disgusting Ren Zhiqiang, shut your filthy mouth", "Hateful housing prices! Pitiable people!", "Google, you have no right to make irresponsible remarks to China", "How long will we tolerate the US", "Japan deserved the bombing-strongly oppose Ban Ki-moon presenting a bouquet in Hiroshima", "Be strong, my brothers and sisters", "Do we need low-level entertainment stars, or talents in technological innovation?", "Contemporary garbage writer, shameless Li Yinhe, please let the children off the hook"
 (z0 / article
     :mod (z1 / other)
     :example (z2 / and
@@ -2774,26 +2325,73 @@
                                            :degree (z59 / over)))
                  :op10 (z60 / or
                             :op1 (z61 / country
-                                      :mod (z62 / wealth))
+                                      :mod (z62 / althy))
                             :op2 (z63 / person
-                                      :mod (z64 / poor)
-                                      :ARG0-of (z65 / have-org-role-91
-                                                    :ARG2 (z66 / official)))))
-    :op11 (z67 / shut-up-06
+                                      :mod (z64 / wealth))
+                            :op3 (z65 / person
+                                      :mod (z66 / poor)
+                                      :ARG0-of (z67 / have-org-role-91
+                                                    :ARG2 (z68 / official)))))
+    :op11 (z69 / shut-up-06
                :mode imperative
-               :ARG1 (z68 / person
+               :ARG0 (z70 / person
                           :wiki "Ren_Zhiqiang"
-                          :name (z69 / name
+                          :name (z71 / name
                                      :op1 "Ren"
                                      :op2 "Zhiqiang")
-                          :ARG0-of (z70 / write-01
-                                        :mod (z71 / garbage)))
-               :op2 (z72 / facility
-                         :mod (z73 / filthy))))
+                          :ARG0-of (z72 / write-01
+                                        :mod (z73 / garbage)))
+               :ARG1 (z74 / mouth
+                          :part-of (z75 / you)
+                          :mod (z76 / filthy)))
+    :op12 (z77 / recommend-01
+               :ARG1 (z78 / let-down-04
+                          :ARG0 (z79 / you)
+                          :ARG1 (z80 / person
+                                     :ARG0-of (z81 / house-01)
+                                     :mod (z82 / iable
+                                               :polarity -))))
+    :op13 (z83 / deserve-01
+               :ARG0 (z84 / you)
+               :ARG1 (z85 / remark-01
+                          :ARG0 z84
+                          :ARG2 z15
+                          :ARG1-of (z86 / responsible-02
+                                        :polarity -))
+               :time (z87 / ever))
+    :op14 (z88 / deserve-01
+               :ARG0 (z89 / country
+                          :wiki "Japan"
+                          :name (z90 / name
+                                     :op1 "Japan"))
+               :ARG1 (z91 / bomb-01)
+               :manner (z92 / strong-02))
+    :op15 (z93 / support-01
+               :mode interrogative
+               :ARG0 (z94 / you)
+               :ARG1 (z95 / oppose-01
+                          :ARG0 z5
+                          :ARG1 (z96 / person
+                                     :wiki "Ban_Ki-moon"
+                                     :name (z97 / name
+                                                :op1 "Ban"
+                                                :op2 "Ki-moon"))
+                          :ARG3 (z98 / bouquet
+                                     :location (z99 / city
+                                                    :wiki "Hiroshima"
+                                                    :name (z100 / name
+                                                                :op1 "Hiroshima"))))
+               :op16 (z101 / strong-02
+                           :ARG1 (z102 / you))
+               :op17 (z103 / and
+                           :op1 (z104 / brother)
+                           :op2 (z105 / sister)
+                           :poss (z106 / i)))
+    :op18 (z108 / you)
+    :ARG1-of (z109 / cause-01
+                   :ARG0 (z110 / develop-02
+                               :ARG1 (z1000 / technology))))
 
-# ::id 69
-# ::annotator bart-amr
-# ::snt Why don't we fight with little Japan?
 (z0 / multi-sentence
     :snt1 (z1 / cause-01
               :ARG0 (z2 / amr-unknown)
@@ -2837,9 +2435,6 @@
                           :ARG0 (z30 / we)
                           :ARG1 z24)))
 
-# ::id 70
-# ::annotator bart-amr
-# ::snt What do Chinese still tolerate...
 (z0 / tolerate-01
     :ARG0 (z1 / person
               :mod (z2 / country
@@ -2860,9 +2455,6 @@
                            :ARG0-of (z13 / cause-01
                                          :ARG1 (z14 / effort-01)))))
 
-# ::id 71
-# ::annotator bart-amr
-# ::snt They are riding even on our head
 (z0 / ride-01
     :ARG0 (z1 / they)
     :ARG1 (z2 / head
@@ -2879,9 +2471,6 @@
                                        :part-of z3)
                             :mod (z12 / even))))
 
-# ::id 72
-# ::annotator bart-amr
-# ::snt Is this still what Chinese with guts do?
 (z0 / multi-sentence
     :snt1 (z1 / do-02
               :mode interrogative
@@ -2904,9 +2493,6 @@
     :snt3 (z16 / cause-01
                :ARG1 (z17 / effort-01)))
 
-# ::id 73
-# ::annotator bart-amr
-# ::snt We should tell the whole world, that Chinese can't be bullied at will by others...
 (z0 / recommend-01
     :ARG1 (z1 / tell-01
               :ARG0 (z2 / we)
@@ -2934,9 +2520,6 @@
                              :ARG0 z2
                              :ARG3 (z19 / event))))
 
-# ::id 74
-# ::annotator bart-amr
-# ::snt It is time to show our strength! China has been calm for too long!
 (z0 / multi-sentence
     :snt1 (z1 / time
               :time-of (z2 / show-01
@@ -2966,9 +2549,6 @@
     :snt5 (z18 / have-purpose-91
                :ARG2 (z19 / effort-01)))
 
-# ::id 75
-# ::annotator bart-amr
-# ::snt Currently our citizens' lives are all too carefree! The officials are too extravagant.
 (z0 / multi-sentence
     :snt1 (z1 / carefree
               :domain (z2 / life
@@ -3001,9 +2581,6 @@
                           :polarity -
                           :ARG1 z25)))
 
-# ::id 76
-# ::annotator bart-amr
-# ::snt Now we already have no cohesion! China needs to start a war! A harsh slap in the face of the countries which follow the United States' rear!
 (z0 / multi-sentence
     :snt1 (z1 / have-03
               :polarity -
@@ -3041,14 +2618,19 @@
                :ARG1 (z22 / start-01
                           :ARG0 z20
                           :ARG1 (z23 / war)))
-    :snt1 (z24 / slap-02
+    :snt6 (z24 / slap-01
                :ARG1 (z25 / face
                           :part-of (z26 / country))
-               :ARG1-of (z27 / harsh-02)))
+               :ARG1-of (z27 / harsh-02))
+    :snt7 (z28 / comment-01
+               :ARG0 (z29 / country)
+               :ARG3 (z30 / rear
+                          :poss (z31 / country
+                                     :wiki "United_States"
+                                     :name (z32 / name
+                                                :op1 "United"
+                                                :op2 "States")))))
 
-# ::id 77
-# ::annotator bart-amr
-# ::snt Let them know that the US is not a panacea! If we win, it may increase China's influence! and improve the cohesion of the citizenry! If we lose, we can clean out those incompetent bureaucrats, and make those trash get out! Let China have new blood and get updated., Get up, China!
 (z0 / multi-sentence
     :snt1 (z1 / let-01
               :mode imperative
@@ -3108,94 +2690,60 @@
                :ARG0 (z40 / you
                           :ARG1-of z39)
                :ARG2 (z41 / up))
-    :snt1 (z42 / let-01
+    :snt6 (z42 / say-01
                :mode imperative
                :ARG0 (z43 / you)
-               :ARG1 (z44 / and
-                          :op1 (z45 / have-03
-                                    :ARG0 (z46 / country
-                                               :wiki "China"
-                                               :name (z47 / name
-                                                          :op1 "China"))
-                                    :ARG1 (z48 / blood
-                                               :ARG1-of (z49 / new-01)))
-                          :op2 (z50 / get-04
-                                    :mode imperative
-                                    :ARG0 z46
-                                    :ARG1 (z51 / update-02
-                                               :ARG1 z46))))
-    :snt1 (z52 / let-01
+               :ARG1 (z44 / country
+                          :wiki "China"
+                          :name (z45 / name
+                                     :op1 "China"))
+               :ARG2 (z46 / up))
+    :snt7 (z47 / say-01
                :mode imperative
-               :ARG0 (z53 / you)
-               :ARG1 (z54 / and
-                          :op1 (z55 / have-03
-                                    :ARG0 z46
-                                    :ARG1 (z56 / blood
-                                               :ARG1-of (z57 / new-01)))
-                          :op2 (z58 / up
-                                    :domain z46)))
-    :snt1 (z59 / let-01
-               :mode imperative
-               :ARG0 (z60 / you)
-               :ARG1 (z61 / up
-                          :domain (z62 / country
+               :ARG0 z43
+               :ARG1 (z48 / panacea
+                          :polarity -
+                          :domain (z49 / country
                                        :wiki "United_States"
-                                       :name (z63 / name
+                                       :name (z50 / name
                                                   :op1 "US"))))
-    :snt2 (z64 / possible-01
-               :ARG1 (z65 / and
-                          :op1 (z66 / increase-01
-                                    :ARG0 (z67 / we)
-                                    :ARG1 (z68 / influence-01
-                                               :ARG0 (z69 / country
-                                                          :wiki "China"
-                                                          :name (z70 / name
-                                                                     :op1 "China"))))
-                          :op2 (z71 / improve-01
-                                    :ARG0 z67
-                                    :ARG1 (z72 / cohesion
-                                               :poss (z73 / citizenry)))
-                          :condition (z74 / lose-03
-                                          :ARG0 (z75 / we))))
-    :snt3 (z76 / possible-01
-               :ARG1 (z77 / and
-                          :op1 (z78 / clean-out-03
-                                    :ARG0 (z79 / we)
-                                    :ARG1 (z80 / bureaucrat
-                                               :ARG1-of (z81 / competent-01
-                                                             :polarity -))
-                                    :op2 (z82 / make-02
-                                              :ARG0 z79
-                                              :ARG1 (z83 / out-06
-                                                         :ARG1 z80)))))
-    :snt4 (z84 / let-01
-               :mode imperative
-               :ARG0 (z85 / you)
-               :ARG1 (z86 / and
-                          :op1 (z87 / blood
-                                    :ARG1-of (z88 / new-01))
-                          :op2 (z89 / update-02
-                                    :ARG0 (z106 / up
-                                                :domain (z107 / you))
-                                    :ARG1 z88)))
-    :snt5 (z98 / let-01
-               :mode imperative
-               :ARG0 (z99 / you)
-               :ARG1 (z100 / and
-                           :op1 (z101 / body
-                                      :domain (z102 / country
-                                                    :wiki "United_States"
-                                                    :name (z103 / name
-                                                                :op1 "America"))
-                                      :op2 (z104 / person
-                                                 :wiki "China"
-                                                 :name (z105 / name
-                                                             :op1 "China")))))
-    :snt2 z106)
+    :snt8 (z51 / and
+               :op1 (z52 / increase-01
+                         :ARG0 (z53 / it)
+                         :ARG1 (z54 / influence-01
+                                    :ARG0 (z55 / country
+                                               :wiki "China"
+                                               :name (z56 / name
+                                                          :op1 "China"))))
+               :op2 (z57 / improve-01
+                         :ARG0 z53
+                         :ARG1 (z58 / cohesion
+                                    :poss (z59 / citizenry)))
+               :condition (z60 / lose-03
+                               :ARG0 (z61 / we)))
+    :snt9 (z62 / possible-01
+               :ARG1 (z63 / and
+                          :op1 (z64 / clean-up-02
+                                    :ARG0 (z65 / we)
+                                    :ARG1 (z66 / bureaucrat
+                                               :ARG1-of (z67 / competent-01
+                                                             :polarity -)
+                                               :mod (z68 / that))
+                                    :op2 (z69 / make-02
+                                              :ARG0 z65
+                                              :ARG1 (z70 / get-05
+                                                         :ARG1 (z71 / trash
+                                                                    :mod z66)
+                                                         :ARG2 (z72 / out)))))
+               :snt10 (z73 / get-05
+                           :mode imperative
+                           :ARG0 (z74 / you)
+                           :ARG1 (z75 / and
+                                      :op1 (z76 / i)
+                                      :op2 (z77 / community))))
+    :ARG0 (z78 / we)
+    :ARG1 (z79 / out))
 
-# ::id 78
-# ::annotator bart-amr
-# ::snt Go, China, go
 (z0 / go-01
     :mode imperative
     :ARG1 (z1 / country
@@ -3216,9 +2764,6 @@
                            :mod z1
                            :ARG1-of (z10 / major-02))))
 
-# ::id 79
-# ::annotator bart-amr
-# ::snt I suggest that China strengthens the guard on the Diaoyu Islands, make it daily, protect the fishermen and the sovereignty of our country; if Japan dares to invade our territory with military force, we will fight a small-scale war of self-defense, regardless of the cost. China can not lose!
 (z0 / multi-sentence
     :snt1 (z1 / suggest-01
               :ARG0 (z2 / i)
@@ -3303,9 +2848,6 @@
                                                                :quant 1
                                                                :unit (z54 / day)))))))
 
-# ::id 80
-# ::annotator bart-amr
-# ::snt We need shows in life, but it is really p. to show yourself within someone's embrace.
 (z0 / multi-sentence
     :snt1 (z1 / contrast-01
               :ARG1 (z2 / need-01
@@ -3336,9 +2878,6 @@
                           :ARG0 (z22 / you
                                      :ARG1-of z21))))
 
-# ::id 81
-# ::annotator bart-amr
-# ::snt I'm just passing by
 (z0 / pass-by-17
     :ARG0 (z1 / i)
     :ARG1 (z2 / person
@@ -3351,9 +2890,6 @@
     :mod (z5 / just)
     :time (z6 / just))
 
-# ::id 82
-# ::annotator bart-amr
-# ::snt The whole society is like this, not to mention the stars
 (z0 / resemble-01
     :ARG1 (z1 / society
               :mod (z2 / whole))
@@ -3376,9 +2912,6 @@
                                      :time (z16 / date-entity
                                                 :year 2003)))))
 
-# ::id 83
-# ::annotator bart-amr
-# ::snt Damn it being not sexy
 (z0 / and
     :op1 (z1 / have-polarity-91
              :ARG2 -
@@ -3394,9 +2927,6 @@
     :mod (z9 / damn
              :mode expressive))
 
-# ::id 84
-# ::annotator bart-amr
-# ::snt It's totally unacceptable
 (z0 / possible-01
     :polarity -
     :ARG1 (z1 / accept-01
@@ -3413,9 +2943,6 @@
                            :op3 (z8 / have-purpose-91
                                     :ARG2 (z9 / effort-01)))))
 
-# ::id 85
-# ::annotator bart-amr
-# ::snt Agree, just cheap entertainers. Their reputation in feudal China somewhat makes sense.
 (z0 / multi-sentence
     :snt1 (z1 / agree-01
               :ARG0 (z2 / i)
@@ -3445,9 +2972,6 @@
                           :ARG1 (z22 / person
                                      :ARG0-of (z23 / entertain-01)))))
 
-# ::id 86
-# ::annotator bart-amr
-# ::snt Their life looks glorious
 (z0 / look-02
     :ARG0 (z1 / life
               :poss (z2 / they))
@@ -3461,9 +2985,6 @@
                            :ARG1-of (z10 / despair-01)
                            :poss z2)))
 
-# ::id 87
-# ::annotator bart-amr
-# ::snt a group of people of nine professions
 (z0 / group-01
     :ARG1 (z1 / person
               :part-of (z2 / profession
@@ -3473,9 +2994,6 @@
     :mod (z5 / argue-01)
     :mod (z6 / chief))
 
-# ::id 88
-# ::annotator bart-amr
-# ::snt Life is hard.
 (z0 / multi-sentence
     :snt1 (z1 / hard-02
               :ARG1 (z2 / live-01))
@@ -3488,9 +3006,6 @@
     :snt5 (z9 / white-02)
     :snt1 (z10 / event))
 
-# ::id 89
-# ::annotator bart-amr
-# ::snt :shocked:
 (z0 / and
     :op1 (z1 / shock-01)
     :op2 (z2 / thing
@@ -3505,9 +3020,6 @@
              :ARG1-of (z11 / describe-01
                            :ARG0 (z12 / event))))
 
-# ::id 90
-# ::annotator bart-amr
-# ::snt That's normal, it has always been the case that a whore is heartless and a performer is unrighteous
 (z0 / multi-sentence
     :snt1 (z1 / normal-02
               :ARG1 (z2 / that))
@@ -3521,23 +3033,17 @@
                                           :polarity -)))
               :time (z10 / always))
     :snt3 (z11 / and
-               :op1 (z12 / adultery
-                         :domain (z13 / whore))
-               :op2 (z14 / hypocrisy
+               :op1 (z12 / normal-02
+                         :polarity -
+                         :ARG1 (z13 / whore-01))
+               :op2 (z14 / hypocritical
                          :domain (z15 / person
-                                      :ARG0-of (z16 / perform-01)))
-               :mod (z17 / law
-                         :polarity -))
-    :snt4 (z18 / normal-02
-               :ARG1 (z19 / that)
-               :time (z20 / always))
-    :snt5 (z21 / comment-01
-               :ARG1 (z22 / effort-01))
-    :prep-in (z23 / context))
+                                      :ARG0-of (z16 / perform-01))))
+    :snt4 (z17 / normal-02
+               :ARG1 (z18 / that))
+    :snt5 (z19 / comment-01
+               :ARG1 (z20 / effort-01)))
 
-# ::id 91
-# ::annotator bart-amr
-# ::snt They want money, not the face
 (z0 / contrast-01
     :ARG1 (z1 / want-01
               :ARG0 (z2 / they)
@@ -3556,9 +3062,6 @@
     :mod (z12 / see-03
               :ARG0 z2))
 
-# ::id 92
-# ::annotator bart-amr
-# ::snt Have a look at the "wolf with glasses" near Ms. Fan, you will know the actress has no choice but drink with him or she will be forced out or even framed.
 (z0 / multi-sentence
     :snt1 (z1 / look-01
               :mode imperative
@@ -3617,9 +3120,6 @@
                                                                    :op1 "Ms."
                                                                    :op2 "Fan"))))))
 
-# ::id 93
-# ::annotator bart-amr
-# ::snt SOB
 (z0 / and
     :op1 (z1 / fuck-01
              :mod (z2 / fucking))
@@ -3631,27 +3131,9 @@
     :op4 (z8 / have-purpose-91
              :ARG2 (z9 / event)))
 
-# ::id 94
-# ::annotator bart-amr
-# ::snt It's ok as long as there is something to eat :loveliness:
-(z0 / okay-04
-    :ARG1 (z1 / it)
-    :condition (z2 / as-long-as
-                   :op1 (z3 / something
-                            :ARG1-of (z4 / eat-01)))
-    :example (z5 / and
-                 :op1 (z6 / lveliness)
-                 :op2 (z7 / loophole)
-                 :op3 (z8 / have-purpose-91
-                          :ARG2 (z9 / have-purpose-91
-                                    :ARG2 (z10 / humor)))
-                 :op4 (z11 / have-purpose-91
-                           :ARG2 (z12 / have-purpose-91
-                                      :ARG2 (z13 / comment-01)))))
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
 
-# ::id 95
-# ::annotator bart-amr
-# ::snt No one is easy. Life is like a show, you must have a look at the script to know how to perform
 (z0 / multi-sentence
     :snt1 (z1 / easy-05
               :ARG1 (z2 / no-one))
@@ -3684,13 +3166,12 @@
     :snt5 (z22 / effort-01
                :ARG0 (z23 / you)
                :ARG1 (z24 / show-04))
-    :snt1 (z25 / resemble-01
-               :ARG1 (z26 / life)
-               :ARG2 (z27 / show-04)))
+    :snt6 (z25 / cause-01
+               :ARG1 (z27 / effort-01
+                          :ARG0 z23
+                          :ARG1 (z28 / perform-01
+                                     :ARG0 z23))))
 
-# ::id 96
-# ::annotator bart-amr
-# ::snt All are SB
 (z0 / and
     :op1 (z1 / thing
              :wiki "Saudi_Arabia"
@@ -3717,56 +3198,9 @@
                   :ARG1 (z14 / speak-01
                              :ARG1-of (z15 / special-02))))
 
-# ::id 97
-# ::annotator bart-amr
-# ::snt There are top scorer in the Imperial Examination in all 360 walks of life! What effort and endeavor behind those top scorer in the Imperial Examination! This is humiliating the word " bean vermicelli"!
-(z0 / multi-sentence
-    :snt1 (z1 / person
-              :ARG0-of (z2 / score-01
-                           :ARG2 (z3 / thing
-                                     :ARG0-of (z4 / achieve-01))
-                           :degree (z5 / top)
-                           :subevent-of (z6 / examine-01
-                                            :mod (z7 / Imperial))
-                           :location (z8 / walk
-                                         :quant 360
-                                         :mod (z9 / all)
-                                         :mod (z10 / life))))
-    :snt2 (z11 / and
-               :op1 (z12 / effort-01
-                         :ARG1 (z13 / this))
-               :op2 (z14 / endeavor-01
-                         :ARG1 z13)
-               :degree (z15 / so)
-               :prep-behind (z16 / person
-                                 :ARG0-of (z17 / score-01
-                                               :ARG2 z3
-                                               :degree (z18 / top))
-                                 :location z6))
-    :snt3 (z19 / humiliate-01
-               :ARG0 (z20 / this)
-               :ARG1 (z21 / word
-                          :mod (z22 / vermicelli)))
-    :snt4 (z23 / fortunate-01
-               :polarity -
-               :ARG2 (z24 / exploit-01
-                          :ARG1 (z25 / field
-                                     :wiki "Imperial_College_London"
-                                     :name (z26 / name
-                                                :op1 "Imperial"))))
-    :snt5 (z27 / exploit-01
-               :ARG0 (z28 / this)
-               :ARG1 (z29 / word
-                          :mod (z30 / vermicelli)))
-    :snt1 (z31 / aid-01
-               :ARG2 (z32 / field
-                          :wiki "Imperial_College_London"
-                          :name (z33 / name
-                                     :op1 "Imperial"))))
+(d2 / dog
+    :ARG0-of (b1 / bark-01))
 
-# ::id 98
-# ::annotator bart-amr
-# ::snt Haha
 (z0 / laugh-01
     :mode expressive
     :ARG0 (z1 / i)
@@ -3774,9 +3208,6 @@
     :mod (z3 / thing)
     :ARG2-of (z4 / have-purpose-91))
 
-# ::id 99
-# ::annotator bart-amr
-# ::snt Overdoing
 (z0 / overdo-01
     :ARG1 (z1 / thing
               :ARG0-of (z2 / do-02

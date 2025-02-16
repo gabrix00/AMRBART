@@ -37,7 +37,7 @@ fi
 python -u main.py \
     --data_dir $DataPath \
     --task "text2amr" \
-    --test_file $DataPath/data4parsing2.jsonl \
+    --test_file $DataPath/ldc_test.jsonl \
     --output_dir $OutputDir \
     --cache_dir $ModelCache \
     --data_cache_dir $DataCache \

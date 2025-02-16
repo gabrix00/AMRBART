@@ -1,0 +1,129 @@
+(t / title-01
+      :ARG1 (a / article
+            :mod (o / other))
+      :ARG2 (a2 / and
+            :op1 (b / book
+                  :beneficiary (c / compatriot
+                        :mod (c2 / country :wiki "Taiwan" :name (n18 / name :op1 "Taiwan")))
+                  :mod (h / have-03
+                        :ARG0 (i / i)
+                        :ARG1 (t19 / thing
+                              :ARG1-of (d / dream-01))))
+            :op2 (n / need-01
+                  :ARG1 (b2 / build-01
+                        :ARG1 (o2 / or
+                              :op1 (m / museum
+                                    :mod (m2 / memorial))
+                              :op2 (t2 / temple))
+                        :beneficiary (h2 / hero
+                              :mod (n19 / nation)
+                              :mod (c3 / country :wiki "China" :name (n20 / name :op1 "China")))))
+            :op3 (t3 / tolerate-01
+                  :ARG0 (w / we)
+                  :ARG1 (i2 / it)
+                  :duration (a3 / amr-unknown))
+            :op4 (h3 / have-concession-91
+                  :ARG1 (b3 / beg-01 :polarity -
+                        :ARG0 c3
+                        :ARG2 (g / game :wiki "Olympic_Games" :name (n3 / name :op1 "Olympics"))
+                        :time (e / ever))
+                  :ARG2 (e2 / expect-01
+                        :ARG0 (c4 / country)
+                        :ARG1 g))
+            :op5 (h4 / have-condition-91
+                  :ARG1 (h5 / history
+                        :mod (m3 / more)
+                        :mod (h6 / hardship))
+                  :ARG2 (f / forget-01
+                        :ARG0 (w2 / we)
+                        :ARG1 (h7 / hardship
+                              :poss (h11 / history))))
+            :op6 (p14 / person
+                  :domain (i3 / i)
+                  :mod c3)
+            :op7 (a4 / and
+                  :op1 (n5 / nation :quant 1
+                        :mod c3)
+                  :op2 (c7 / culture :quant 1
+                        :mod (c6 / country))
+                  :mod (o3 / only))
+            :op8 (p / possible-01
+                  :ARG1 (d2 / decline-01
+                        :ARG1 (s / state))
+                  :time (o10 / overdevelop-00
+                        :ARG1 (s2 / sport)))
+            :op9 (o5 / or :mode interrogative
+                  :op1 (a5 / and
+                        :op1 (c8 / country
+                              :mod (w3 / wealthy))
+                        :op2 (p2 / person
+                              :ARG1-of (s3 / strong-02)))
+                  :op2 (a6 / and
+                        :op1 (o6 / official
+                              :mod w3)
+                        :op2 (p3 / person
+                              :mod (p4 / poor))))
+            :op10 (s4 / shut-01
+                  :ARG0 (p5 / person :wiki - :name (n7 / name :op1 "Ren" :op2 "Zhiqiang")
+                        :ARG0-of (d4 / disgust-01))
+                  :ARG1 (m4 / mouth
+                        :part-of p5
+                        :mod (f2 / filthy)))
+            :op11 (m5 / multi-sentence
+                  :snt1 (m6 / monetary-quantity
+                        :ARG2-of (p6 / price-01
+                              :ARG1 (h8 / housing))
+                        :mod (h9 / hateful))
+                  :snt2 (p7 / person
+                        :ARG1-of (p8 / pity-01
+                              :ARG1-of (p9 / possible-01))))
+            :op12 (s10 / say-01
+                  :ARG0 (c15 / company :wiki "Google" :name (n8 / name :op1 "Google"))
+                  :ARG1 (r3 / right-05 :polarity -
+                        :ARG1 c15
+                        :ARG2 (t4 / thing
+                              :ARG1-of (r / remark-01
+                                    :ARG0 c15
+                                    :ARG2 c3)
+                              :ARG1-of (r2 / responsible-02 :polarity -))))
+            :op13 (t5 / tolerate-01
+                  :ARG0 (w4 / we)
+                  :ARG1 (c10 / country :wiki "United_States" :name (n10 / name :op1 "US"))
+                  :duration (a7 / amr-unknown))
+            :op14 (d5 / deserve-01
+                  :ARG0 (c11 / country :wiki "Japan" :name (n11 / name :op1 "Japan"))
+                  :ARG1 (p11 / present-01
+                        :ARG0 (p12 / person :wiki "Ban_Ki-moon" :name (n12 / name :op1 "Ban" :op2 "Ki-Moon")
+                              :ARG0-of (o7 / oppose-01
+                                    :ARG1 (b5 / bomb-01)
+                                    :ARG1-of (s5 / strong-02)))
+                        :ARG1 (b4 / bouquet)
+                        :location (c12 / city :wiki "Hiroshima" :name (n13 / name :op1 "Hiroshima"))))
+            :op15 (s6 / strong-02 :mode imperative
+                  :ARG1 (a8 / and
+                        :op1 (p10 / person
+                              :ARG0-of (h12 / have-rel-role-91
+                                    :ARG1 (i4 / i)
+                                    :ARG2 (b6 / brother)))
+                        :op2 (p15 / person
+                              :ARG0-of (h13 / have-rel-role-91
+                                    :ARG1 i4
+                                    :ARG2 (s7 / sister)))))
+            :op16 (n14 / need-01 :mode interrogative
+                  :ARG0 (w5 / we)
+                  :ARG1 (o8 / or
+                        :op1 (s8 / star
+                              :ARG0-of (e4 / entertain-01
+                                    :mod (l / level
+                                          :ARG1-of (l2 / low-04))))
+                        :op2 (t6 / talent
+                              :mod (i5 / innovate-01
+                                    :ARG1 (t7 / technology)))))
+            :op17 (l3 / let-01 :polite + :mode imperative
+                  :ARG0 (p13 / person :wiki "Li_Yinhe" :name (n15 / name :op1 "Li" :op2 "Yinhe")
+                        :ARG0-of (w6 / write-01
+                              :ARG1 (g2 / garbage)
+                              :time (c13 / contemporary))
+                        :ARG1-of (s9 / shame-01 :polarity -))
+                  :ARG1 (g3 / get-off-23
+                        :ARG1 (c14 / child)))))

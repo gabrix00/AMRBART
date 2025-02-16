@@ -1,14 +1,14 @@
 {
-    "input_ids": "[[0, 1308, 2335, 16, 350, 11962, 6, 8, 24, 18, 766, 16, 1586, 261, 2, 53226, 50264, 53227, 1, 1, 1, 1, 1, 1]]",
+    "input_ids": "[[53845, 4787, 40716, 323, 5, 15019, 6135, 328, 38, 38003, 10, 19340, 11, 10418, 35, 53844, 53844, 50264, 53845, 1, 1, 1, 1, 1]]",
     "input_tokens": [
-        "<s> My dog is too cute, and it's name is Aron</s><AMR><mask></AMR><pad><pad><pad><pad><pad><pad>"
+        "<s>  Resolutely support the thread starter! I compose a poem in reply: </s> </s>  <mask> <s>  <pad> <pad> <pad> <pad> <pad>"
     ],
-    "labels": "[[53227, 1, 1, 1, 1, 1, 1, 1]]",
+    "labels": "[[53845, 1, 1, 1, 1, 1, 1, 1]]",
     "labels_tokens": [
-        "</AMR><pad><pad><pad><pad><pad><pad><pad>"
+        "<s>  <pad> <pad> <pad> <pad> <pad> <pad> <pad>"
     ],
-    "decoder_input_ids": "[[53226, 53227, 1, 1, 1, 1, 1, 1]]",
+    "decoder_input_ids": "[[53844, 53845, 1, 1, 1, 1, 1, 1]]",
     "decoder_input_tokens": [
-        "<AMR></AMR><pad><pad><pad><pad><pad><pad>"
+        "</s> <s>  <pad> <pad> <pad> <pad> <pad> <pad>"
     ]
 }

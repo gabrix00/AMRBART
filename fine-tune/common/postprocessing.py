@@ -29,7 +29,24 @@ def token_processing(tok):
         return '"' + tok
     else:
         return tok
-
+'''
+def token_processing(tok):
+    if tok is None:
+        return None
+    elif tok.isdigit():
+        try:
+            return eval(tok)
+        except:
+            return tok
+    elif tok.startswith('"') and (not tok.endswith('"')):
+        print('volevo aggiungere " a chiudere il token!')
+        return tok #+ '"'
+    elif tok.endswith('"') and (not tok.startswith('"')):
+        print('volevo aggiungere " ad aprire il token!')
+        return tok #return '"' + tok
+    else:
+        return tok
+'''
 
 def decode_into_node_and_backreferences(subtoken_ids, tokenizer):
     rex_arg = re.compile(f"^{tokenizer.INIT}(op|snt|conj|prep)")

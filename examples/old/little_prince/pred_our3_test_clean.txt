@@ -1,0 +1,1674 @@
+(z0 / chapter
+    :mod 4)
+
+(z0 / learn-01
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / fact
+              :ord (z3 / ordinal-entity
+                       :value 2)
+              :ARG1-of (z4 / important-01
+                           :degree (z5 / great))
+              :domain (z6 / have-degree-91
+                          :ARG1 (z7 / planet
+                                    :ARG2-of (z8 / come-01
+                                                 :ARG1 (z9 / prince
+                                                           :mod (z10 / little))))
+                          :ARG2 (z11 / large)
+                          :ARG3 (z12 / more
+                                     :mod (z13 / any)
+                                     :mod (z14 / scarcely))
+                          :ARG4 (z15 / house)))
+    :mod (z16 / thus))
+
+(z0 / contrast-01
+    :ARG2 (z1 / surprise-01
+              :polarity -
+              :ARG0 (z2 / that)
+              :ARG1 (z3 / i)
+              :ARG1-of (z4 / real-04)
+              :degree (z5 / much)))
+
+(z0 / know-01
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / and
+              :op1 (z3 / planet
+                       :mod (z4 / great)
+                       :example (z5 / and
+                                    :op1 (z6 / planet
+                                             :wiki "Earth"
+                                             :name (z7 / name
+                                                       :op1 "Earth"))
+                                    :op2 (z8 / planet
+                                             :wiki "Jupiter"
+                                             :name (z9 / name
+                                                       :op1 "Jupiter"))
+                                    :op3 (z10 / planet
+                                              :wiki "Mars"
+                                              :name (z11 / name
+                                                         :op1 "Mars"))
+                                    :op4 (z12 / planet
+                                              :wiki "Venus"
+                                              :name (z13 / name
+                                                         :op1 "Venus")))
+                       :ARG2-of (z14 / name-01
+                                     :ARG0 (z15 / we)))
+              :op2 (z16 / planet
+                        :mod (z17 / other)
+                        :quant (z18 / multiple
+                                    :op1 100)
+                        :mod (z19 / also)
+                        :ARG2-of (z20 / include-91
+                                      :ARG1 (z21 / planet
+                                                 :ARG1-of (z22 / have-degree-91
+                                                               :ARG2 (z23 / small)
+                                                               :ARG3 (z24 / so)
+                                                               :ARG6 (z25 / have-03
+                                                                          :ARG0 (z26 / one)
+                                                                          :ARG1 (z27 / time
+                                                                                     :ARG1-of (z28 / hard-02))
+                                                                          :manner (z29 / see-01
+                                                                                       :ARG0 z26
+                                                                                       :ARG1 z21
+                                                                                       :instrument (z30 / telescope))))))))
+    :ARG1-of (z31 / well-09
+                  :degree (z32 / very)))
+
+(z0 / contrast-01
+    :ARG1 (z1 / name-01
+              :polarity -
+              :ARG0 (z2 / person
+                        :ARG0-of (z3 / have-org-role-91
+                                     :ARG2 (z4 / astronomy)))
+              :ARG1 (z5 / thing
+                        :ARG1-of (z6 / include-91
+                                     :ARG2 (z7 / this))))
+    :ARG2 (z8 / name-01
+              :ARG0 z2
+              :ARG1 z5
+              :ARG2 (z9 / number
+                        :mod (z10 / only)))
+    :time (z11 / discover-01
+               :ARG0 z2
+               :ARG1 z5))
+
+(z0 / possible-01
+    :ARG1 (z1 / call-01
+              :ARG0 (z2 / he)
+              :ARG1 (z3 / it)
+              :ARG2 (z4 / asteroid
+                        :wiki "325_Murchison"
+                        :name (z5 / name
+                                  :op1 "Asteroid"
+                                  :op2 325)
+                        :ARG0-of (z6 / exemplify-01))))
+
+(z0 / have-03
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / reason
+              :ARG0-of (z3 / serious-02)
+              :purpose (z4 / believe-01
+                           :ARG0 z1
+                           :ARG1 (z5 / planet
+                                     :source-of (z6 / come-01
+                                                    :ARG1 (z7 / prince
+                                                              :mod (z8 / little)))
+                                     :domain (z9 / asteroid
+                                                 :wiki "B-612_(a3000 / aster_asteroid)"
+                                                 :name (z10 / name
+                                                            :op1 "B-612"))))))
+
+(z0 / see-01
+    :frequency 1
+    :ARG1 (z1 / asteroid
+              :mod (z2 / this))
+    :medium (z3 / telescope)
+    :mod (z4 / only))
+
+(z0 / that
+    :ARG1-of (z1 / say-01
+                 :ARG0 (z2 / person
+                           :mod (z3 / country
+                                    :wiki "Turkey"
+                                    :name (z4 / name
+                                              :op1 "Turkey"))
+                           :ARG0-of (z5 / have-org-role-91
+                                        :ARG2 (z6 / astronaut)))
+                 :time (z7 / date-entity
+                           :year 1909)))
+
+(z0 / present-01
+    :ARG0 (z1 / person
+              :ARG0-of (z2 / have-org-role-91
+                           :ARG2 (z3 / astronomy)))
+    :ARG1 (z4 / it)
+    :ARG2 (z5 / organization
+              :wiki "International_Congress_on_the_Sciences_of_the_Sun"
+              :name (z6 / name
+                        :op1 "International"
+                        :op2 "Astronomical"
+                        :op3 "Congress"))
+    :time (z7 / discover-01
+              :ARG0 z1
+              :ARG1 z4)
+    :manner (z8 / demonstrate-01
+                :mod (z9 / great)))
+
+(z0 / contrast-01
+    :ARG2 (z1 / cause-01
+              :ARG0 (z2 / costume
+                        :mod (z3 / country
+                                 :wiki "Turkey"
+                                 :name (z4 / name
+                                           :op1 "Turkey"))
+                        :domain (z5 / he))
+              :ARG1 (z6 / believe-01
+                        :ARG0 (z7 / nobody)
+                        :ARG1 (z8 / thing
+                                  :ARG1-of (z9 / say-01
+                                               :ARG0 z5)))))
+
+(z0 / resemble-01
+    :ARG1 (z1 / grown-up)
+    :ARG2 (z2 / that))
+
+(z0 / contrast-01
+    :ARG2 (z1 / make-01
+              :ARG0 (z2 / dictator
+                        :mod (z3 / country
+                                 :wiki "Turkey"
+                                 :name (z4 / name
+                                           :op1 "Turkey")))
+              :ARG1 (z5 / law
+                        :topic (z6 / recommend-01
+                                   :ARG1 (z7 / change-01
+                                             :ARG1 (z8 / subject
+                                                       :poss z2)
+                                             :ARG2 (z9 / costume
+                                                       :mod (z10 / continent
+                                                                 :wiki "Europe"
+                                                                 :name (z11 / name
+                                                                            :op1 "Europe")))
+                                             :ARG1-of (z12 / cause-01
+                                                           :ARG0 (z13 / pain-01
+                                                                      :ARG0 (z14 / die-01
+                                                                                 :ARG1 z8)
+                                                                      :ARG1 z8)))))
+              :ARG2-of (z15 / fortunate-01)
+              :purpose (z16 / reputation
+                            :poss (z17 / asteroid
+                                       :wiki "B-612_(A3000 / Asteroid)"
+                                       :name (z18 / name
+                                                  :op1 "B-612")))))
+
+(z0 / cause-01
+    :ARG1 (z1 / demonstrate-01
+              :ARG0 (z2 / person
+                        :ARG0-of (z3 / have-org-role-91
+                                     :ARG2 (z4 / astronomy))
+                        :ARG1-of (z5 / dress-01
+                                     :ARG2 (z6 / and
+                                               :op1 (z7 / style
+                                                        :ARG0-of (z8 / impress-01))
+                                               :op2 (z9 / elegant))))
+              :mod (z10 / again
+                        :mod (z11 / all-over))
+              :time (z12 / date-entity
+                         :year 1920)))
+
+(z0 / and
+    :op2 (z1 / accept-01
+             :ARG0 (z2 / everybody)
+             :ARG1 (z3 / report-01
+                       :ARG0 (z4 / he))
+             :time (z5 / time
+                       :mod (z6 / this))))
+
+(z0 / cause-01
+    :ARG0 (z1 / and
+              :op1 (z2 / grown-up)
+              :op2 (z3 / way
+                       :poss z2))
+    :ARG1 (z4 / and
+              :op1 (z5 / tell-01
+                       :ARG0 (z6 / i)
+                       :ARG1 (z7 / detail
+                                 :mod (z8 / this)
+                                 :topic (z9 / asteroid))
+                       :ARG2 (z10 / you))
+              :op2 (z11 / note-01
+                        :ARG0 z6
+                        :ARG1 (z12 / number
+                                   :poss z9)
+                        :beneficiary z10)))
+
+(z0 / ask-01
+    :polarity -
+    :ARG0 (z1 / they)
+    :ARG1 (z2 / question-01
+              :ARG0 z1
+              :ARG1 (z3 / matter
+                        :mod (z4 / essential))
+              :ARG2 (z7 / tell-01
+                        :ARG0 z6
+                        :ARG1 (z8 / befriend-01
+                                  :ARG0 z6
+                                  :ARG1-of (z9 / new-01))
+                        :ARG2 z1)
+              :mod (z5 / any))
+    :ARG2 (z6 / you)
+    :time z7
+    :time (z10 / ever))
+
+(z0 / say-01
+    :polarity -
+    :ARG0 (z1 / they)
+    :ARG1 (z2 / sound-01
+              :ARG1 (z3 / voice
+                        :part-of (z4 / he))
+              :ARG2 (z5 / amr-unknown))
+    :ARG2 (z6 / you)
+    :time (z7 / ever))
+
+(z0 / love-01
+    :ARG0 (z1 / he)
+    :ARG1 (z2 / game
+              :mod (z3 / amr-unknown))
+    :ARG1-of (z4 / have-degree-91
+                 :ARG2 (z5 / good-02
+                           :ARG1 z0)
+                 :ARG3 (z6 / most)))
+
+(z0 / collect-01
+    :ARG0 (z1 / he)
+    :ARG1 (z2 / Butterfly)
+    :polarity (z3 / amr-unknown))
+
+(z0 / demand-01
+    :ARG0 (z1 / they)
+    :ARG1 (z2 / age-01
+              :ARG1 (z3 / he)
+              :ARG2 (z4 / amr-unknown))
+    :ARG1-of (z5 / instead-of-91))
+
+(z0 / have-rel-role-91
+    :ARG0 (z1 / he)
+    :ARG1 (z2 / person
+              :quant (z3 / amr-unknown))
+    :ARG2 (z4 / brother))
+
+(z0 / weigh-01
+    :ARG1 (z1 / he)
+    :ARG3 (z2 / amr-unknown))
+
+(z0 / make-05
+    :ARG0 (z1 / person
+              :ARG0-of (z2 / have-rel-role-91
+                           :ARG1 (z3 / he)
+                           :ARG2 (z4 / father)))
+    :ARG1 (z5 / money
+              :quant (z6 / amr-unknown)))
+
+(z0 / think-01
+    :ARG0 (z1 / they)
+    :ARG1 (z2 / learn-01
+              :ARG0 z1
+              :ARG1 (z3 / anything
+                        :topic (z4 / he))
+              :ARG2 (z5 / figure
+                        :mod (z6 / this)
+                        :mod (z7 / only))))
+
+(z0 / have-condition-91
+    :ARG1 (z1 / possible-01
+              :polarity -
+              :ARG1 (z2 / get-01
+                        :ARG0 (z3 / they)
+                        :ARG1 (z4 / idea
+                                  :mod (z5 / any)
+                                  :topic (z6 / house
+                                             :mod (z7 / that)))
+                        :mod (z8 / at-all)))
+    :ARG2 (z9 / say-01
+              :ARG0 (z10 / you)
+              :ARG1 (z11 / see-01
+                         :ARG0 z10
+                         :ARG1 (z12 / house
+                                    :ARG1-of (z13 / beautiful-02)
+                                    :consist-of (z14 / brick
+                                                     :mod (z15 / rosy))
+                                    :ARG0-of (z16 / have-03
+                                                  :ARG1 (z17 / and
+                                                             :op1 (z18 / geranium
+                                                                       :location (z19 / window))
+                                                             :op2 (z20 / doves
+                                                                       :location (z21 / roof))))))
+              :ARG2 (z22 / grown-up)))
+
+(z0 / obligate-01
+    :ARG1 (z1 / you)
+    :ARG2 (z2 / say-01
+              :ARG0 z1
+              :ARG1 (z3 / see-01
+                        :ARG0 z1
+                        :ARG1 (z4 / house
+                                  :ARG1-of (z5 / cost-01
+                                               :ARG2 (z6 / monetary-quantity
+                                                         :quant 20000
+                                                         :unit (z7 / dollar)))))
+              :ARG2 (z8 / they)))
+
+(z0 / exclaim-01
+    :ARG0 (z1 / they)
+    :ARG1 (z2 / house
+              :mod (z3 / pretty
+                       :degree (z4 / so))
+              :mod (z5 / oh
+                       :mode expressive))
+    :time (z6 / then))
+
+(z0 / possible-01
+    :ARG1 (z1 / say-01
+              :ARG0 (z2 / you)
+              :ARG1 (z3 / prove-01
+                        :ARG0 (z4 / and
+                                  :op1 (z5 / charm-01
+                                           :ARG0 (z9 / exist-01
+                                                     :ARG1 (z10 / prince
+                                                                :mod (z11 / little))))
+                                  :op2 (z6 / laugh-01
+                                           :ARG0 z9)
+                                  :op3 (z7 / look-01
+                                           :ARG0 z9
+                                           :ARG1 (z8 / sheep)))
+                        :ARG1 z9)
+              :ARG2 (z12 / they))
+    :mod (z13 / so
+              :mod (z14 / just)))
+
+(z0 / prove-01
+    :ARG0 (z1 / want-01
+              :ARG0 (z2 / anybody)
+              :ARG1 (z3 / sheep))
+    :ARG1 (z4 / exist-01
+              :ARG1 z3))
+
+(z0 / and
+    :op2 (z1 / good-02
+             :ARG1 (z2 / tell-01
+                       :ARG1 (z3 / that)
+                       :ARG2 (z4 / they))
+             :degree (z5 / amr-unknown)))
+
+(z0 / and
+    :op1 (z1 / shrug-01
+             :ARG0 (z2 / they)
+             :ARG1 (z3 / shoulder
+                       :part-of z2))
+    :op2 (z4 / treat-01
+             :ARG0 z2
+             :ARG1 (z5 / you)
+             :ARG2 (z6 / child)))
+
+(z0 / contrast-01
+    :ARG2 (z1 / and
+              :op1 (z2 / convince-01
+                       :ARG1 (z3 / they))
+              :op2 (z4 / leave-14
+                       :ARG0 z3
+                       :ARG1 (z5 / peace)
+                       :source (z6 / question-01
+                                   :ARG0 z3))
+              :condition (z7 / say-01
+                             :ARG0 (z8 / you)
+                             :ARG1 (z9 / planet
+                                       :ARG2-of (z10 / come-01
+                                                     :ARG1 (z11 / he))
+                                       :domain (z12 / asteroid
+                                                    :wiki "B-612_(A3000 / Asteroid)"
+                                                    :name (z13 / name
+                                                               :op1 "B-612")))
+                             :ARG2 z3)))
+
+(z0 / resemble-01
+    :ARG1 (z1 / they)
+    :ARG2 (z2 / that))
+
+(z0 / obligate-01
+    :ARG1 (z1 / one)
+    :ARG2 (z2 / hold-02
+              :polarity -
+              :ARG0 z1
+              :ARG1 (z3 / it)
+              :ARG3 (z4 / they)))
+
+(z0 / recommend-01
+    :ARG1 (z1 / show-01
+              :ARG0 (z2 / child)
+              :ARG1 (z3 / forbearance
+                        :mod (z4 / great)
+                        :beneficiary (z5 / person
+                                         :ARG1-of (z6 / grow-up-04)))
+              :time (z7 / always)))
+
+(z0 / contrast-01
+    :ARG2 (z1 / matter
+              :topic (z2 / indifferent-01
+                         :ARG1 (z3 / we
+                                   :ARG0-of (z4 / understand-01
+                                                :ARG1 (z5 / life))))
+              :domain (z6 / figure)
+              :mod (z7 / certain)))
+
+(z0 / recommend-01
+    :ARG1 (z1 / like-02
+              :ARG0 (z2 / i)
+              :ARG1 (z3 / begin-01
+                        :ARG0 z2
+                        :ARG1 (z4 / story
+                                  :mod (z5 / this))
+                        :manner (z6 / fashion
+                                    :mod (z7 / tale
+                                             :mod (z8 / fairy))))))
+
+(z0 / recommend-01
+    :ARG1 (z1 / like-02
+              :ARG0 (z2 / i)
+              :ARG1 (z3 / say-01
+                        :ARG0 z2
+                        :ARG1 (z4 / prince
+                                  :mod (z5 / little)
+                                  :ARG0-of (z6 / live-01
+                                               :location (z7 / planet
+                                                             :ARG1-of (z8 / have-degree-91
+                                                                          :ARG2 (z9 / big)
+                                                                          :ARG3 (z10 / more
+                                                                                     :mod (z11 / any
+                                                                                               :mod (z12 / scarcely)))
+                                                                          :ARG4 z4)))
+                                  :ARG0-of (z13 / need-01
+                                                :ARG1 (z14 / sheep))
+                                  :time (z15 / once-upon-a-time)))))
+
+(z0 / give-01
+    :ARG0 (z1 / that)
+    :ARG1 (z2 / air
+              :mod (z3 / truth)
+              :ARG1-of (z4 / have-degree-91
+                           :ARG2 (z5 / great)
+                           :ARG3 (z6 / more
+                                     :quant (z7 / much))))
+    :ARG2 (z8 / person
+              :ARG0-of (z9 / understand-01
+                           :ARG1 (z10 / life)))
+    :ARG3 (z11 / story
+               :poss (z12 / i)))
+
+(z0 / cause-01
+    :ARG0 (z1 / want-01
+              :polarity -
+              :ARG0 (z2 / i)
+              :ARG1 (z3 / read-01
+                        :ARG0 (z4 / anyone)
+                        :ARG1 (z5 / book
+                                  :poss z2)
+                        :manner (z6 / care-04
+                                    :polarity -))))
+
+(z0 / suffer-01
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / grief
+              :ARG1-of (z3 / have-quant-91
+                           :ARG2 (z4 / much)
+                           :ARG3 (z5 / too)))
+    :ARG1-of (z6 / cause-01
+                 :ARG0 (z7 / set-down-15
+                           :ARG0 z1
+                           :ARG1 (z8 / memory
+                                     :mod (z9 / this)))))
+
+(z0 / pass-03
+    :ARG1 (z1 / temporal-quantity
+              :quant 6
+              :unit (z2 / year))
+    :time (z3 / already)
+    :time (z4 / since
+              :op1 (z5 / go-02
+                       :ARG0 (z6 / person
+                                 :ARG0-of (z7 / have-rel-role-91
+                                              :ARG1 (z8 / i)
+                                              :ARG2 (z9 / friend)))
+                       :ARG4 (z10 / away
+                                  :op1 z8)
+                       :accompanier (z11 / sheep
+                                         :poss z6))))
+
+(z0 / have-condition-91
+    :ARG1 (z1 / ensure-01
+              :ARG0 (z6 / describe-01
+                        :ARG0 z5
+                        :ARG1 z3
+                        :location (z7 / here))
+              :ARG1 (z2 / forget-01
+                        :polarity -
+                        :ARG0 z6
+                        :ARG1 (z3 / he)))
+    :ARG2 (z4 / try-01
+              :ARG0 (z5 / i)
+              :ARG1 z6))
+
+(z0 / sad-02
+    :ARG0 (z1 / forget-01
+              :ARG1 (z2 / person
+                        :ARG0-of (z3 / have-rel-role-91
+                                     :ARG2 (z4 / friend)))))
+
+(z0 / have-03
+    :ARG0 (z1 / everyone
+              :polarity -)
+    :ARG1 (z2 / person
+              :ARG0-of (z3 / have-rel-role-91
+                           :ARG1 z1
+                           :ARG2 (z4 / friend))))
+
+(z0 / and
+    :op2 (z1 / possible-01
+             :ARG1 (z2 / become-01
+                       :ARG1 (z3 / i)
+                       :ARG2 (z4 / resemble-01
+                                 :ARG1 z3
+                                 :ARG2 (z5 / grown-up
+                                           :ARG1-of (z6 / interest-01
+                                                        :ARG2 (z7 / anything
+                                                                  :ARG2-of (z8 / except-01
+                                                                               :ARG1 (z9 / figure)))
+                                                        :time (z10 / no-longer)))))
+             :condition (z11 / forget-01
+                             :ARG0 z3
+                             :ARG1 (z12 / he))))
+
+(z0 / buy-01
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / and
+              :op1 (z3 / box
+                       :consist-of (z4 / paint))
+              :op2 (z5 / pencil
+                       :quant (z6 / some)))
+    :purpose (z7 / purpose
+                 :mod (z8 / that))
+    :mod (z9 / again))
+
+(z0 / hard-02
+    :ARG1 (z1 / take-up-31
+              :ARG0 (z2 / i)
+              :ARG1 (z3 / draw-01
+                        :ARG0 z2)
+              :mod (z4 / again)
+              :time (z5 / age-01
+                        :ARG1 z2))
+    :time (z6 / make-01
+              :polarity -
+              :ARG0 z2
+              :ARG1 (z7 / picture
+                        :mod (z8 / any)
+                        :ARG2-of (z9 / except-01
+                                     :ARG1 (z10 / and
+                                                :op1 (z11 / picture
+                                                          :topic (z12 / constrictor
+                                                                      :mod (z13 / boa))
+                                                          :source (z14 / outside))
+                                                :op2 (z15 / picture
+                                                          :topic z12
+                                                          :source (z16 / inside)))))
+              :time (z17 / since
+                         :op1 (z18 / age-01
+                                   :ARG1 z2
+                                   :ARG2 (z19 / temporal-quantity
+                                              :quant 6
+                                              :unit (z20 / year))))))
+
+(z0 / try-01
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / make-02
+              :ARG0 z1
+              :ARG1 (z3 / true-01
+                        :ARG1 (z4 / portrait
+                                  :poss z1)
+                        :ARG2 (z5 / life)
+                        :ARG2-of (z6 / have-degree-91
+                                     :ARG1 z4
+                                     :ARG3 (z7 / equal)
+                                     :ARG4 (z8 / possible-01
+                                               :ARG1 z2))))
+    :mod (z9 / certain))
+
+(z0 / contrast-01
+    :ARG2 (z1 / sure-02
+              :polarity -
+              :ARG0 (z2 / i)
+              :ARG1 (z3 / succeed-01
+                        :ARG0 z2)
+              :degree (z4 / at-all)))
+
+(z0 / and
+    :op1 (z1 / go-06
+             :ARG0 (z2 / thing
+                       :ARG1-of (z3 / draw-01)
+                       :mod (z4 / one))
+             :ARG2 (z5 / along)
+             :ARG1-of (z6 / all-right))
+    :op2 (z7 / resemble-01
+             :polarity -
+             :ARG1 (z8 / thing
+                       :ARG1-of (z9 / draw-01)
+                       :mod (z10 / another))
+             :ARG2 (z11 / subject
+                        :poss z8)))
+
+(z0 / err-01
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / high-02
+              :ARG1 (z3 / prince
+                        :mod (z4 / little)))
+    :mod (z5 / too)
+    :quant (z6 / some)
+    :example (z7 / and
+                 :op1 (z8 / have-degree-91
+                          :ARG1 z3
+                          :ARG2 (z9 / tall)
+                          :ARG3 (z10 / too)
+                          :location (z11 / place
+                                         :mod (z12 / one)))
+                 :op2 (z13 / have-degree-91
+                           :ARG1 z3
+                           :ARG2 (z14 / short-07
+                                      :ARG1 z3)
+                           :ARG3 (z15 / too)
+                           :location (z16 / place
+                                          :mod (z17 / another)))))
+
+(z0 / and
+    :op2 (z1 / feel-01
+             :ARG0 (z2 / i)
+             :ARG1 (z3 / doubt-01
+                       :ARG0 z2
+                       :ARG1 (z4 / color
+                                 :poss (z5 / costume
+                                           :poss (z6 / he)))
+                       :quant (z7 / some))))
+
+(z0 / cause-01
+    :ARG1 (z1 / and
+              :op1 (z2 / fiddle-01
+                       :ARG0 (z3 / i)
+                       :manner (z4 / along)
+                       :manner (z5 / good-02
+                                   :ARG1 z3
+                                   :time (z6 / now))
+                       :manner (z7 / bad-07
+                                   :ARG1 z3
+                                   :time z6)
+                       :ARG1-of (z8 / have-degree-91
+                                    :ARG2 (z9 / good-02
+                                              :ARG1 z2)
+                                    :ARG3 (z10 / most)
+                                    :ARG5 (z11 / possible-01
+                                               :ARG1 z2)))
+              :op2 (z12 / hope-01
+                        :ARG0 z3
+                        :ARG1 (z13 / fair-02
+                                   :ARG1 z3
+                                   :ARG2 (z14 / middling)
+                                   :ARG1-of (z15 / general-02)))))
+
+(z0 / mistake-02
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / detail
+              :mod (z3 / certain)
+              :ARG1-of (z4 / have-degree-91
+                           :ARG2 (z5 / important-01
+                                     :ARG1 z2)
+                           :ARG3 (z6 / more)))
+    :mod (z7 / also))
+
+(z0 / contrast-01
+    :ARG2 (z1 / fault-01
+              :polarity -
+              :ARG1 (z2 / i)
+              :ARG2 (z3 / something
+                        :domain (z4 / that))))
+
+(z0 / explain-01
+    :polarity -
+    :ARG0 (z1 / person
+              :ARG0-of (z2 / have-rel-role-91
+                           :ARG1 (z3 / i)
+                           :ARG2 (z4 / friend)))
+    :ARG1 (z5 / anything)
+    :ARG2 z3
+    :time (z6 / ever))
+
+(z0 / think-01
+    :ARG0 (z1 / he)
+    :ARG1 (z2 / resemble-01
+              :ARG1 (z3 / i)
+              :ARG2 z1)
+    :ARG1-of (z4 / possible-01))
+
+(z0 / contrast-01
+    :ARG2 (z1 / know-01
+              :polarity -
+              :ARG0 (z2 / i)
+              :ARG1 (z3 / thing
+                        :manner-of (z4 / see-01
+                                       :ARG0 z2
+                                       :ARG1 (z5 / sheep)
+                                       :path (z6 / through
+                                                 :op1 (z7 / wall
+                                                          :part-of (z8 / box)))))
+              :mod (z9 / alas
+                       :mode expressive)))
+
+(z0 / possible-01
+    :ARG1 (z1 / resemble-01
+              :ARG1 (z2 / i)
+              :ARG2 (z3 / grown-up)
+              :degree (z4 / little)))
+
+(z0 / obligate-01
+    :ARG1 (z1 / i)
+    :ARG2 (z2 / grow-up-04
+              :ARG1 z1
+              :mod (z3 / old)))
+
+(z0 / chapter
+    :mod 5)
+
+(z0 / learn-01
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / something
+              :topic (z3 / and
+                         :op1 (z4 / planet
+                                  :poss (z5 / prince
+                                            :mod (z6 / little)))
+                         :op2 (z7 / depart-01
+                                  :ARG0 z5
+                                  :ARG1 z4)
+                         :op3 (z8 / journey-01
+                                  :ARG0 z5)))
+    :time (z9 / pass-03
+              :ARG1 (z10 / day
+                         :mod (z11 / each)))
+    :subevent-of (z12 / talk-01
+                      :ARG0 (z13 / we)))
+
+(z0 / come-01
+    :ARG1 (z1 / information)
+    :ARG1-of (z2 / slow-05
+                 :degree (z3 / very))
+    :ARG1-of (z4 / cause-01
+                 :ARG0 (z5 / possible-01
+                           :ARG1 (z6 / chance-02
+                                     :ARG1 (z7 / fall-01
+                                               :ARG1 z1
+                                               :ARG3 (z8 / thing
+                                                         :ARG1-of (z9 / think-01
+                                                                      :ARG0 (z10 / he))))))))
+
+(z0 / hear-01
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / catastrophe
+              :domain (z3 / baobab))
+    :time (z4 / day
+              :ord (z5 / ordinal-entity
+                       :value 3))
+    :manner (z6 / way
+                :mod (z7 / this)))
+
+(z0 / have-03
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / sheep
+              :ARG1-of (z3 / thank-01
+                           :ARG0 z1
+                           :ARG2 (z4 / it)))
+    :time (z5 / time
+              :mod (z6 / this))
+    :mod (z7 / once
+             :mod (z8 / more)))
+
+(z0 / cause-01
+    :ARG0 (z1 / ask-01
+              :ARG0 (z2 / prince
+                        :mod (z3 / little))
+              :ARG1 (z4 / true-01
+                        :ARG1 (z5 / eat-01
+                                  :ARG0 (z6 / sheep)
+                                  :ARG1 (z7 / bush
+                                            :mod (z8 / little)))
+                        :ARG1-of (z9 / request-confirmation-91))
+              :ARG2 (z10 / i)
+              :manner (z11 / abrupt)
+              :manner (z12 / seize-01
+                           :ARG0 (z13 / doubt-01
+                                      :mod (z14 / grave))
+                           :ARG1 z10)))
+
+(z0 / true-01
+    :ARG1 (z1 / that))
+
+(z0 / ah
+    :mode expressive)
+
+(z0 / glad-02
+    :mode expressive
+    :ARG1 (z1 / i))
+
+(z0 / understand-01
+    :polarity -
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / thing
+              :ARG0-of (z3 / cause-01
+                           :ARG1 (z4 / recommend-01
+                                     :ARG1 (z5 / eat-01
+                                               :ARG0 (z6 / sheep)
+                                               :ARG1 (z7 / bush
+                                                         :mod (z8 / little)))))))
+
+(z0 / contrast-01
+    :ARG2 (z1 / add-01
+              :ARG0 (z2 / prince
+                        :mod (z3 / little))
+              :ARG1 (z4 / follow-01
+                        :ARG1 (z5 / eat-01
+                                  :ARG0 (z6 / they)
+                                  :ARG1 (z7 / baobab)
+                                  :mod (z8 / also))
+                        :polarity (z9 / amr-unknown))))
+
+(z0 / point-out-02
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / and
+              :op1 (z3 / contrast-01
+                       :ARG1 (z4 / bush
+                                 :polarity -
+                                 :domain (z5 / baobab)
+                                 :mod (z6 / little))
+                       :ARG2 (z7 / tree
+                                 :ARG1-of (z8 / have-degree-91
+                                              :ARG2 (z9 / big)
+                                              :ARG3 (z10 / equal)
+                                              :ARG4 (z11 / castle))))
+              :op2 (z12 / eat-01
+                        :polarity -
+                        :ARG0 (z13 / herd
+                                   :consist-of (z14 / elephant))
+                        :ARG1 (z15 / baobab
+                                   :quant 1
+                                   :ARG1-of (z16 / single-02))
+                        :concession (z17 / even-if
+                                         :op1 (z18 / take-01
+                                                   :ARG0 (z19 / he)
+                                                   :ARG1 (z20 / herd
+                                                              :mod (z21 / whole))
+                                                   :ARG3 z19))))
+    :ARG2 (z22 / prince
+               :mod (z23 / little)))
+
+(z0 / make-02
+    :ARG0 (z1 / idea
+              :topic (z2 / herd
+                         :consist-of (z3 / elephant)))
+    :ARG1 (z4 / laugh-01
+              :ARG0 (z5 / prince
+                        :mod (z6 / little))))
+
+(z0 / say-01
+    :ARG0 (z1 / he)
+    :ARG1 (z2 / obligate-01
+              :ARG1 (z3 / we)
+              :ARG2 (z4 / put-01
+                        :ARG0 z3
+                        :ARG1 (z5 / they)
+                        :ARG2 (z6 / top
+                                  :op1 (z7 / other)))))
+
+(z0 / contrast-01
+    :ARG2 (z1 / comment-01
+              :ARG0 (z2 / he)
+              :ARG1 (z3 / start-out-05
+                        :ARG0 (z4 / baobab)
+                        :ARG2 (z5 / little
+                                  :domain z4)
+                        :time (z6 / before
+                                  :op1 (z7 / grow-01
+                                           :ARG1 z4
+                                           :ARG2 (z8 / big
+                                                     :degree (z9 / so)))))
+              :mod (z10 / wise)))
+
+(z0 / correct-02
+    :ARG1 (z1 / that)
+    :manner (z2 / strict))
+
+(z0 / say-01
+    :ARG0 (z1 / i))
+
+(z0 / contrast-01
+    :ARG2 (z1 / want-01
+              :ARG0 (z2 / you)
+              :ARG1 (z3 / eat-01
+                        :ARG0 (z4 / sheep)
+                        :ARG1 (z5 / baobab
+                                  :mod (z6 / little)))
+              :ARG1-of (z7 / cause-01
+                           :ARG0 (z8 / amr-unknown))))
+
+(z0 / answer-01
+    :ARG0 (z1 / he)
+    :ARG1 (z2 / i)
+    :ARG2 (z3 / and
+              :op1 (z4 / come-01
+                       :mode imperative
+                       :ARG1 (z5 / you)
+                       :mod (z6 / oh
+                                :mode expressive))
+              :op2 (z7 / come-01
+                       :mode imperative
+                       :ARG1 z5))
+    :time (z8 / at-once-01)
+    :manner (z9 / speak-01
+                :ARG0 z1
+                :ARG1 (z10 / something
+                           :ARG1-of (z11 / evidence-01
+                                         :ARG0 z1))))
+
+(z0 / and
+    :op2 (z1 / oblige-02
+             :ARG1 (z2 / i)
+             :ARG2 (z3 / effort-01
+                       :ARG0 z2
+                       :ARG1 (z4 / solve-01
+                                 :ARG0 z2
+                                 :ARG1 (z5 / problem
+                                           :mod (z6 / this)))
+                       :mod (z7 / great)
+                       :mod (z8 / mind)
+                       :manner (z9 / assist-01
+                                   :polarity -
+                                   :ARG1 z2))))
+
+(z0 / learn-01
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / and
+              :op1 (z3 / plant
+                       :ARG1-of (z4 / good-02))
+              :op2 (z5 / plant
+                       :ARG1-of (z6 / bad-07))
+              :location (z7 / planet
+                            :mod (z8 / all))
+              :location-of (z9 / live-01
+                               :ARG0 (z10 / prince
+                                          :mod (z11 / little))))
+    :mod (z12 / indeed))
+
+(z0 / consequence-03
+    :ARG2 (z1 / and
+              :op1 (z2 / seed
+                       :ARG1-of (z3 / good-02)
+                       :source (z4 / plant
+                                   :ARG1-of (z5 / good-02)))
+              :op2 (z6 / seed
+                       :ARG1-of (z7 / bad-07)
+                       :source (z8 / plant
+                                   :ARG1-of z5))))
+
+(z0 / contrast-01
+    :ARG2 (z1 / see-01
+              :polarity -
+              :ARG1 (z2 / seed)))
+
+(z0 / sleep-01
+    :ARG0 (z1 / they)
+    :location (z2 / heart
+                  :part-of (z3 / darkness
+                               :poss (z4 / earth))
+                  :ARG1-of (z5 / deep-02))
+    :time (z6 / until
+              :op1 (z7 / seize-01
+                       :ARG1 (z8 / someone
+                                 :ARG1-of (z9 / include-91
+                                              :ARG2 z1))
+                       :ARG2 (z10 / desire-01
+                                  :ARG0 z8
+                                  :ARG1 (z11 / awake-03
+                                             :ARG1 z8)))))
+
+(z0 / and
+    :op1 (z1 / stretch-01
+             :ARG0 (z2 / seed
+                       :mod (z3 / little)
+                       :mod (z4 / this))
+             :ARG1 z2)
+    :op2 (z5 / begin-01
+             :ARG0 z2
+             :ARG1 (z6 / push-01
+                       :ARG0 z2
+                       :ARG1 (z7 / sprig
+                                 :mod (z8 / little)
+                                 :ARG0-of (z9 / charm-01))
+                       :ARG2 (z10 / upward)
+                       :ARG0-of (z11 / offend-01
+                                     :polarity -)
+                       :direction (z12 / sun))
+             :manner (z13 / timid
+                          :time (z14 / at-first)))
+    :time (z15 / then))
+
+(z0 / let-01
+    :ARG0 (z1 / one)
+    :ARG1 (z2 / grow-03
+              :ARG1 (z7 / sprout-01
+                        :ARG1 (z8 / radish)
+                        :mod (z9 / only))
+              :location (z3 / thing
+                            :location-of (z4 / wish-01
+                                             :ARG0 z7
+                                             :ARG1 z2
+                                             :ARG1-of (z5 / possible-01))))
+    :condition (z6 / or
+                   :op1 z7
+                   :op2 (z10 / sprig
+                             :part-of (z11 / bush
+                                           :mod (z12 / rose)))
+                   :domain (z13 / it)))
+
+(z0 / contrast-01
+    :ARG2 (z1 / obligate-01
+              :ARG1 (z2 / one)
+              :ARG2 (z3 / destroy-01
+                        :ARG0 z2
+                        :ARG1 (z4 / plant
+                                  :ARG1-of (z5 / bad-07))
+                        :time (z6 / soon
+                                  :ARG2-of (z7 / have-degree-91
+                                               :ARG1 z3
+                                               :ARG3 (z8 / equal)
+                                               :ARG4 (z9 / possible-01
+                                                         :ARG1 z3)))
+                        :time (z10 / instant
+                                   :ord (z11 / ordinal-entity
+                                             :value 1
+                                             :mod (z12 / very))
+                                   :time-of (z13 / recognize-02
+                                                 :ARG0 z2
+                                                 :ARG1 z4)))))
+
+(z0 / and
+    :op1 (z1 / seed
+             :ARG1-of (z2 / terrible-01)
+             :quant (z3 / some)
+             :location (z4 / planet
+                           :ARG0-of (z5 / have-03
+                                        :ARG1 (z6 / home
+                                                  :poss (z7 / prince
+                                                            :mod (z8 / little))))))
+    :op2 (z9 / seed
+             :mod (z10 / baobab)
+             :domain z1)
+    :time (z11 / now))
+
+(z0 / infest-01
+    :ARG1 (z1 / soil
+              :part-of (z2 / planet
+                           :mod (z3 / that)))
+    :ARG2 (z4 / they))
+
+(z0 / possible-01
+    :polarity -
+    :ARG1 (z1 / rid-01
+              :ARG0 (z2 / you)
+              :ARG1 (z3 / baobab))
+    :condition (z4 / attend-01
+                   :ARG0 z2
+                   :ARG1 z3
+                   :time (z5 / late
+                             :ARG2-of (z6 / have-degree-91
+                                          :ARG1 z4
+                                          :ARG3 (z7 / too))))
+    :time (z8 / ever))
+
+(z0 / spread-02
+    :ARG1 (z1 / it)
+    :ARG2 (z2 / planet
+              :mod (z3 / entire)))
+
+(z0 / bore-02
+    :ARG0 (z1 / it)
+    :ARG1 (z2 / it)
+    :instrument (z3 / root
+                    :part-of z1)
+    :ARG1-of (z4 / clear-06))
+
+(z0 / and
+    :op2 (z1 / split-01
+             :ARG0 (z2 / they)
+             :ARG1 (z3 / it)
+             :ARG3 (z4 / piece)
+             :condition (z5 / and
+                            :op1 (z6 / have-degree-91
+                                     :ARG1 (z7 / planet)
+                                     :ARG2 (z8 / small)
+                                     :ARG3 (z9 / too))
+                            :op2 (z10 / have-quant-91
+                                      :ARG1 (z11 / baobab)
+                                      :ARG2 (z12 / many)
+                                      :ARG3 (z13 / too)))))
+
+(z0 / say-01
+    :ARG0 (z1 / prince
+              :mod (z2 / little))
+    :ARG1 (z3 / question-01
+              :ARG1 (z4 / discipline))
+    :ARG2 (z5 / i)
+    :time (z6 / after))
+
+(z0 / be-temporally-at-91
+    :ARG1 (z1 / attend-01
+              :ARG0 (z2 / you)
+              :ARG1 (z3 / toilet
+                        :poss (z4 / planet
+                                  :poss z2))
+              :manner (z5 / care-04
+                          :ARG0 z2
+                          :ARG1-of (z6 / have-degree-91
+                                       :ARG2 (z7 / great)
+                                       :ARG3 (z8 / most)))
+              :mod (z9 / just))
+    :ARG2 (z10 / finish-01
+               :ARG0 z2
+               :ARG1 (z11 / toilet
+                          :poss z2)
+               :time (z12 / date-entity
+                          :dayperiod (z13 / morning))))
+
+(z0 / obligate-01
+    :ARG1 (z1 / you)
+    :ARG2 (z2 / see-01
+              :ARG0 z1
+              :ARG1 (z3 / pull-up-05
+                        :ARG0 z1
+                        :ARG1 (z4 / baobab
+                                  :mod (z5 / all))
+                        :ARG1-of (z6 / regular-02)
+                        :time (z7 / moment
+                                  :ord (z8 / ordinal-entity
+                                           :value 1
+                                           :degree (z9 / very))
+                                  :time-of (z10 / possible-01
+                                                :ARG1 (z11 / distinguish-01
+                                                           :ARG1 z4
+                                                           :ARG2 (z12 / rosebushes
+                                                                      :ARG1-of (z13 / resemble-01
+                                                                                    :ARG2 z4
+                                                                                    :time (z14 / youth
+                                                                                               :poss z4
+                                                                                               :ARG1-of (z15 / have-degree-91
+                                                                                                             :ARG2 (z16 / early)
+                                                                                                             :ARG3 (z17 / most)))
+                                                                                    :ARG1-of (z18 / close-10
+                                                                                                  :degree (z19 / so))))))))))
+
+(z0 / add-01
+    :ARG0 (z1 / prince
+              :mod (z2 / little))
+    :ARG1 (z3 / contrast-01
+              :ARG1 (z4 / work-01
+                        :ARG1 (z5 / it)
+                        :mod (z6 / tedious
+                                 :degree (z7 / very)))
+              :ARG2 (z8 / easy-05
+                        :ARG1 z5
+                        :degree (z9 / very))))
+
+(z0 / and
+    :op2 (z1 / say-01
+             :ARG0 (z2 / he)
+             :ARG1 (z3 / recommend-01
+                       :ARG0 z2
+                       :ARG1 (z4 / make-01
+                                 :ARG0 (z5 / you)
+                                 :ARG1 (z6 / thing
+                                           :ARG1-of (z7 / draw-01)
+                                           :ARG1-of (z8 / beautiful-02))
+                                 :purpose (z9 / possible-01
+                                              :ARG1 (z10 / see-01
+                                                         :ARG0 (z11 / child
+                                                                    :location (z12 / live-01
+                                                                                   :ARG0 z5))
+                                                         :ARG1 (z13 / thing
+                                                                    :manner-of (z14 / this
+                                                                                    :mod (z15 / all)))
+                                                         :mod (z16 / exact)))))
+             :ARG2 z5
+             :time (z17 / day
+                        :mod (z18 / one))))
+
+(z0 / useful-05
+    :ARG1 (z1 / that)
+    :ARG2 (z2 / they)
+    :condition (z3 / travel-01
+                   :ARG0 z2
+                   :time (z4 / day
+                             :mod (z5 / some)))
+    :degree (z6 / very))
+
+(z0 / add-01
+    :ARG0 (z1 / he)
+    :ARG1 (z2 / harm-01
+              :polarity -
+              :ARG0 (z3 / put-off-06
+                        :ARG1 (z4 / piece
+                                  :ARG1-of (z5 / work-01))
+                        :time (z6 / until
+                                  :op1 (z7 / day
+                                           :mod (z8 / another))))
+              :frequency (z9 / sometimes)))
+
+(z0 / contrast-01
+    :ARG2 (z1 / mean-01
+              :ARG1 (z2 / that)
+              :ARG2 (z3 / catastrophe)
+              :time (z4 / always)
+              :condition (z5 / matter
+                             :topic (z6 / baobab))))
+
+(z0 / know-02
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / planet
+              :ARG1-of (z3 / inhabit-01
+                           :ARG0 (z4 / man
+                                     :mod (z5 / lazy)))))
+
+(z0 / neglect-01
+    :ARG0 (z1 / he)
+    :ARG1 (z2 / bush
+              :quant 3
+              :mod (z3 / little)))
+
+(z0 / cause-01
+    :ARG1 (z1 / make-01
+              :ARG0 (z2 / i)
+              :ARG1 (z3 / draw-01
+                        :ARG0 z2
+                        :ARG1 (z4 / planet
+                                  :mod (z5 / that)))
+              :ARG1-of (z6 / describe-01
+                           :ARG0 (z7 / prince
+                                     :mod (z8 / little))
+                           :ARG2 z2)))
+
+(z0 / like-01
+    :polarity -
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / take-01
+              :ARG0 z1
+              :ARG1 (z3 / tone
+                        :poss (z4 / moralist)))
+    :degree (z5 / much))
+
+(z0 / contrast-01
+    :ARG2 (z1 / and
+              :op1 (z2 / understand-01
+                       :ARG1 (z3 / endanger-01
+                                 :ARG0 (z4 / baobab))
+                       :degree (z5 / little
+                                   :degree (z6 / so)))
+              :op2 (z7 / run-01
+                       :ARG0 (z8 / anyone
+                                 :ARG1-of (z9 / lose-02
+                                              :location (z10 / asteroid)
+                                              :ARG1-of (z11 / possible-01)))
+                       :ARG1 (z12 / risk-01
+                                  :ARG1-of (z13 / have-quant-91
+                                                :ARG2 (z14 / considerable)
+                                                :ARG3 (z15 / so))))
+              :ARG0-of (z16 / cause-01
+                            :ARG1 (z17 / break-through-22
+                                       :ARG0 (z18 / i)
+                                       :ARG1 (z19 / reserve-01
+                                                  :ARG0 z18)
+                                       :mod (z20 / for-once)))))
+
+(z0 / child)
+
+(z0 / say-01
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / watch-out-02
+              :mode imperative
+              :ARG0 (z3 / you)
+              :ARG1 (z4 / baobab))
+    :manner (z5 / plain))
+
+(z0 / cause-01
+    :ARG0 (z1 / skirt-01
+              :ARG0 (z2 / person
+                        :ARG0-of (z3 / have-rel-role-91
+                                     :ARG1 (z4 / i)
+                                     :ARG2 (z5 / friend))
+                        :ARG1-of (z6 / resemble-01
+                                     :ARG2 z4))
+              :ARG1 (z7 / danger
+                        :mod (z8 / this))
+              :ARG1-of (z9 / long-03)
+              :manner (z10 / know-01
+                           :polarity -
+                           :ARG1 z1
+                           :time (z11 / ever)))
+    :ARG1 (z12 / work-01
+               :ARG0 z4
+               :ARG1 (z13 / thing
+                          :ARG1-of (z14 / draw-01)
+                          :mod (z15 / this))
+               :ARG1-of (z16 / hard-02
+                             :degree (z17 / so))
+               :beneficiary z2))
+
+(z0 / worth-02
+    :ARG1 (z1 / lesson
+              :ARG1-of (z2 / pass-on-09
+                           :ARG0 (z3 / i)
+                           :manner (z4 / means
+                                       :mod (z5 / this))))
+    :ARG2 (z6 / trouble-02
+              :ARG1 z1
+              :mod (z7 / all)
+              :ARG2-of (z8 / cost-01
+                           :ARG1 z1
+                           :ARG3 z3)))
+
+(z0 / possible-01
+    :ARG1 (z1 / ask-01
+              :ARG0 (z2 / you)
+              :ARG1 (z3 / cause-01
+                        :ARG0 (z4 / amr-unknown)
+                        :ARG1 (z5 / thing
+                                  :polarity -
+                                  :ARG1 (z6 / thing
+                                            :ARG1-of (z7 / draw-01)
+                                            :mod (z8 / other)
+                                            :ARG1-of (z9 / have-degree-91
+                                                         :ARG2 (z10 / and
+                                                                    :op1 (z11 / magnificent)
+                                                                    :op2 (z12 / impress-01))
+                                                         :ARG3 (z13 / equal)
+                                                         :ARG4 (z14 / thing
+                                                                    :ARG1-of (z15 / draw-01)
+                                                                    :topic (z16 / baobab)
+                                                                    :mod (z17 / this))))
+                                  :ARG2 (z18 / book
+                                             :mod (z19 / this))))
+              :ARG2 (z20 / i)))
+
+(z0 / simple-02
+    :ARG1 (z1 / thing
+              :ARG2-of (z2 / reply-01)))
+
+(z0 / try-01
+    :ARG0 (z1 / i))
+
+(z0 / contrast-01
+    :ARG2 (z1 / succeed-01
+              :polarity -
+              :ARG0 (z2 / i)
+              :ARG1 (z3 / other)))
+
+(z0 / carry-01
+    :ARG0 (z1 / force
+              :ARG0-of (z2 / inspire-01)
+              :ARG0-of (z3 / need-01
+                           :mod (z4 / urgent)))
+    :ARG1 (z5 / i)
+    :ARG4 (z6 / beyond
+              :op1 z5)
+    :time (z7 / draw-01
+              :ARG0 z5
+              :ARG1 (z8 / baobab)))
+
+(z0 / chapter
+    :mod 6)
+
+(z0 / prince
+    :mod (z1 / little)
+    :mod (z2 / oh
+             :mode expressive))
+
+(z0 / come-04
+    :ARG1 (z1 / i)
+    :ARG2 (z2 / understand-01
+              :ARG0 z1
+              :ARG1 (z3 / secret
+                        :poss (z4 / life
+                                  :poss (z5 / you)
+                                  :ARG1-of (z6 / sad-02)
+                                  :mod (z7 / little))))
+    :manner (z8 / bit-by-bit))
+
+(z0 / find-01
+    :ARG0 (z1 / you)
+    :ARG1 (z2 / entertain-01
+              :ARG0 (z3 / pleasure
+                        :ARG1-of (z4 / quiet-04)
+                        :domain (z5 / look-01
+                                    :ARG0 z1
+                                    :ARG1 (z6 / sunset)))
+              :ARG1 z1
+              :mod (z7 / only))
+    :duration (z8 / time
+                  :ARG1-of (z9 / long-03)))
+
+(z0 / learn-01
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / detail
+              :ARG1-of (z3 / new-01)
+              :mod (z4 / that))
+    :time (z5 / date-entity
+              :dayperiod (z6 / morning)
+              :mod (z7 / day
+                       :ord (z8 / ordinal-entity
+                                :value 4))
+              :time-of (z9 / say-01
+                           :ARG0 (z10 / you)
+                           :ARG1 (z11 / like-01
+                                      :ARG0 z10
+                                      :ARG1 (z12 / sunset)
+                                      :degree (z13 / very))
+                           :ARG2 z1)))
+
+(z0 / and
+    :op1 (z1 / come-01
+             :mode imperative
+             :ARG1 (z2 / you))
+    :op2 (z3 / let-01
+             :mode imperative
+             :ARG0 z2
+             :ARG1 (z4 / go-02
+                       :ARG0 (z5 / we)
+                       :ARG4 (z6 / look-01
+                                 :ARG0 z5
+                                 :ARG1 (z7 / sunset))
+                       :time (z8 / now))))
+
+(z0 / contrast-01
+    :ARG2 (z1 / obligate-01
+              :ARG2 (z2 / wait-01
+                        :ARG1 (z3 / we))))
+
+(z0 / say-01
+    :ARG0 (z1 / i))
+
+(z0 / wait-01
+    :polarity (z1 / amr-unknown))
+
+(z0 / have-purpose-91
+    :ARG2 (z1 / amr-unknown))
+
+(z0 / have-purpose-91
+    :ARG2 (z1 / sunset))
+
+(z0 / obligate-01
+    :ARG1 (z1 / we)
+    :ARG2 (z2 / wait-01
+              :ARG1 z1
+              :time (z3 / until
+                        :op1 (z4 / time))))
+
+(z0 / seem-01
+    :ARG1 (z1 / surprise-01
+              :ARG1 (z2 / you)
+              :degree (z3 / much
+                          :degree (z4 / very)))
+    :time (z5 / at-first))
+
+(z0 / and
+    :op2 (z1 / laugh-01
+             :ARG0 (z2 / you
+                       :ARG2-of z1)
+             :time (z3 / then)))
+
+(z0 / say-01
+    :ARG0 (z1 / you)
+    :ARG1 (z2 / think-01
+              :ARG0 z1
+              :ARG1 (z3 / be-located-at-91
+                        :ARG1 z1
+                        :ARG2 (z4 / home))
+              :time (z5 / always))
+    :ARG2 (z6 / i))
+
+(z0 / so
+    :mod (z1 / just))
+
+(z0 / know-01
+    :ARG0 (z1 / everybody)
+    :ARG1 (z2 / set-01
+              :ARG1 (z3 / sun)
+              :ARG2 (z4 / over
+                        :op1 (z5 / country
+                                 :wiki "France"
+                                 :name (z6 / name
+                                           :op1 "France")))
+              :time (z7 / date-entity
+                        :dayperiod (z8 / noon)
+                        :location (z9 / country
+                                      :wiki "United_States"
+                                      :name (z10 / name
+                                                 :op1 "United"
+                                                 :op2 "States")))))
+
+(z0 / have-condition-91
+    :ARG1 (z1 / possible-01
+              :ARG1 (z2 / go-02
+                        :ARG0 (z3 / you)
+                        :ARG4 (z4 / sunset)
+                        :ARG1-of (z5 / straight-04)
+                        :time (z6 / from
+                                  :op1 (z7 / noon)
+                                  :mod (z8 / right))))
+    :ARG2 (z9 / possible-01
+              :ARG1 (z10 / fly-01
+                         :ARG1 z3
+                         :destination (z11 / country
+                                           :wiki "France"
+                                           :name (z12 / name
+                                                      :op1 "France"))
+                         :duration (z13 / temporal-quantity
+                                        :quant 1
+                                        :unit (z14 / minute)))))
+
+(z0 / fortunate-01
+    :polarity -
+    :ARG1 (z1 / country
+              :wiki "France"
+              :name (z2 / name
+                        :op1 "France"))
+    :ARG2 (z3 / away
+              :ARG1-of (z4 / have-degree-91
+                           :ARG2 (z5 / far)
+                           :ARG3 (z6 / too)
+                           :ARG6 (z7 / that))))
+
+(z0 / say-01
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / contrast-01
+              :ARG2 (z3 / need-01
+                        :ARG0 (z4 / you)
+                        :ARG1 (z5 / move-01
+                                  :ARG0 z4
+                                  :ARG1 (z6 / chair
+                                            :poss z4)
+                                  :ARG2 (z7 / few
+                                            :op1 (z8 / distance-quantity
+                                                     :quant 1
+                                                     :unit (z9 / step))))
+                        :mod (z10 / all)
+                        :location (z11 / planet
+                                       :poss z4
+                                       :mod (z12 / tiny))))
+    :ARG2 (z13 / prince
+               :mod (z14 / little)
+               :poss z4))
+
+(z0 / possible-01
+    :ARG1 (z1 / see-01
+              :ARG0 (z2 / you)
+              :ARG1 (z3 / and
+                        :op1 (z4 / end-01
+                                 :ARG1 (z5 / day))
+                        :op2 (z6 / fall-01
+                                 :ARG1 (z7 / twilight)))
+              :time (z8 / like-02
+                        :ARG0 z2
+                        :mod (z9 / any))))
+
+(z0 / say-01
+    :ARG0 (z1 / you)
+    :ARG1 (z2 / see-01
+              :frequency 4
+              :ARG0 z1
+              :ARG1 (z3 / sunset))
+    :ARG2 (z4 / i)
+    :time (z5 / day
+              :mod (z6 / one)))
+
+(z0 / and
+    :op2 (z1 / add-01
+             :ARG0 (z2 / you)
+             :ARG1 (z3 / know-01
+                       :ARG0 (z4 / you)
+                       :ARG1 (z5 / love-01
+                                 :ARG0 (z6 / one)
+                                 :ARG1 (z7 / sunset)
+                                 :time (z8 / sad-02
+                                           :ARG1 z6
+                                           :degree (z9 / so))))
+             :time (z10 / after
+                        :quant (z11 / little))))
+
+(z0 / sad-02
+    :polarity (z1 / amr-unknown)
+    :ARG1 (z2 / you)
+    :degree (z3 / so)
+    :mod (z4 / then))
+
+(z0 / ask-01
+    :ARG0 (z1 / i)
+    :ARG1 (z2 / be-temporally-at-91
+              :ARG2 (z3 / day
+                        :time-of (z4 / sunset
+                                     :quant 40))
+              :polarity (z5 / amr-unknown)))
+
+(z0 / contrast-01
+    :ARG2 (z1 / reply-01
+              :polarity -
+              :ARG0 (z2 / prince
+                        :mod (z3 / little))))

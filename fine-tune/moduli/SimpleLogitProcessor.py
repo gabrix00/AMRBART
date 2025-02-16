@@ -37,11 +37,11 @@ class MaskLogitsProcessor(LogitsProcessor):
 
     def __call__(self, input_ids, scores):
         print(f"Stack: {self.pda.stack[::-1]}") 
-
+        
         valid_tokens = self.pda.get_tokens()
         valid_tokens_ids = self.tokenizer.convert_tokens_to_ids(valid_tokens)
         if valid_tokens_ids:
-            print(f"tokens validi secondo il get tokens del PDA sono:{valid_tokens}")
+            #print(f"tokens validi secondo il get tokens del PDA sono:{valid_tokens}")
 
             print("\n\nLogitsProcessor attivato!")  
             original_probabilities = torch.softmax(scores, dim=-1)
@@ -62,6 +62,29 @@ class MaskLogitsProcessor(LogitsProcessor):
             self.log_top_10_scores(filtered_probabilities, prefix="Filtered")
         else:
             print(f"Valid tokens è vuoto!{valid_tokens}")
+            if self.pda.eos():
+                print("stack vuoto quindi eos True")
+                #valid_tokens_ids = self.tokenizer.eos_token_id
+                valid_tokens_ids = self.tokenizer.amr_eos_token_id
+                print("\n\nposso generare solo eos perccè stack vuoto!")
+                print("LogitsProcessor attivato!")  
+                original_probabilities = torch.softmax(scores, dim=-1)
+                self.log_top_10_scores(original_probabilities, prefix="Original")
+                '''
+                # Calcola la distribuzione di probabilità prima della modifica
+                probs_before = torch.softmax(scores, dim=-1)
+                top_k_before = torch.topk(probs_before, k=5, dim=-1)
+                print(f"Probs prima della modifica:\n{top_k_before.values.tolist()}")
+                '''
+
+                filter_mask = torch.full_like(scores, -float('inf'))
+                filter_mask[:, valid_tokens_ids] = 0
+                filtered_scores = scores + filter_mask
+
+                
+                filtered_probabilities = torch.softmax(filtered_scores, dim=-1)
+                self.log_top_10_scores(filtered_probabilities, prefix="Filtered")
+            
 
         return scores + filter_mask
 
